@@ -1,450 +1,434 @@
-# Sri Lanka International Cricket Performance Dataset (2000–2026)
+# 🏏 Sri Lanka International Cricket Performance Dataset (2000–Present)
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)
-![Dataset](https://img.shields.io/badge/matches-1082-orange.svg)
-![Status](https://img.shields.io/badge/status-kaggle%20ready-success.svg)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Dataset](https://img.shields.io/badge/matches-1082-orange.svg)](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset)
+[![Kaggle Ready](https://img.shields.io/badge/kaggle-ready-success.svg)](https://www.kaggle.com/)
+[![Data Engineering](https://img.shields.io/badge/type-data%20engineering-blueviolet.svg)](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset)
 
-A clean, well-structured Python project to generate a comprehensive **Kaggle-ready** dataset of Sri Lanka's international cricket matches from January 2000 to January 30, 2026, using official [Cricsheet](https://cricsheet.org/) data.
+## 📋 Overview
 
-## 📊 Dataset Overview
+An end-to-end **data engineering pipeline** that extracts, cleans, validates, and publishes a comprehensive dataset of Sri Lanka's international cricket matches. Built with professional standards for data quality, reproducibility, and Kaggle publication readiness.
 
-### About This Dataset
+This project transforms raw cricket data from [Cricsheet](https://cricsheet.org/) into analysis-ready CSV files with comprehensive validation, automated testing, and exploratory data analysis.
 
-This dataset provides a comprehensive record of Sri Lanka's performance in international cricket across all three major formats from January 2000 to January 30, 2026. Perfect for cricket analytics, machine learning projects, sports data visualization, and statistical analysis.
+---
 
-**Key Features:**
-- ✅ **Complete Coverage**: All Sri Lanka international matches (Tests, ODIs, T20s) from 2000 onwards
-- ✅ **High Quality**: Validated and cleaned data with quality checks
-- ✅ **Match Outcomes**: Detailed winner information and victory margins
-- ✅ **Venue Information**: Stadium/ground names for location-based analysis
-- ✅ **Ready to Use**: Clean CSV format, no preprocessing needed
-- ✅ **Regularly Updated**: Based on latest Cricsheet data
+## 📊 Dataset Summary
 
-### Output Files
+| Attribute | Details |
+|-----------|---------|
+| **Time Period** | January 2000 – January 30, 2026 |
+| **Match Formats** | Test, ODI (One Day International), T20 International |
+| **Total Matches** | 1,082 matches |
+| **Columns** | 7 (Match_Date, Match_Format, Opponent, Winner, Margin, Ground, Year) |
+| **Data Quality** | 100% validated and cleaned |
+| **Missing Values** | Margin column only (82 matches with no margin data) |
+| **Coverage** | All Sri Lanka international matches from 2000 onwards |
 
-**Raw Dataset (Generated):**  
-`sri_lanka_international_cricket_matches_2000_present.csv` - Initial extracted data
+### Dataset Columns
 
-**Clean Dataset (Validated & Ready for Analysis):**  
-`sri_lanka_international_cricket_matches_2000_present_clean.csv` - Quality-checked, standardized dataset
+| Column | Type | Description | Example |
+|--------|------|-------------|---------|
+| `Match_Date` | String | Match date in YYYY-MM-DD format | `2020-01-15` |
+| `Match_Format` | String | Cricket format (Test/ODI/T20) | `ODI` |
+| `Opponent` | String | Opposing team name | `India` |
+| `Winner` | String | Match outcome | `Sri Lanka`, `Opponent`, `Draw`, `Tie`, `No Result` |
+| `Margin` | String | Victory margin (if applicable) | `5 wickets`, `123 runs` |
+| `Ground` | String | Venue/stadium name | `Galle International Stadium` |
+| `Year` | Integer | Match year | `2020` |
 
-### Columns
-| Column | Description | Example |
-|--------|-------------|---------|
-| `Match_Date` | Match date in YYYY-MM-DD format | `2020-01-15` |
-| `Match_Format` | Type of match | `Test`, `ODI`, `T20` |
-| `Opponent` | Opposing team name | `India` |
-| `Winner` | Match winner | `Sri Lanka`, `Opponent`, `Draw`, `Tie`, `No Result` |
-| `Margin` | Victory margin | `5 wickets`, `123 runs` |
-| `Ground` | Venue name | `Galle International Stadium` |
-| `Year` | Match year | `2020` |
+---
 
-## � Output Files
+## 🚀 Project Highlights
 
-This project generates two CSV files:
+✨ **Key Features:**
 
-1. **`sri_lanka_international_cricket_matches_2000_present.csv`** (Raw)
-   - Direct extraction from Cricsheet data
-   - 1,082 matches
-   - Minimal processing
+- 🔄 **Automated Data Pipeline**: End-to-end extraction from Cricsheet to clean CSV
+- ✅ **Comprehensive Validation**: 17 unit tests for data cleaning + 24 tests for parsing
+- 🧹 **Data Quality Assurance**: Multi-stage validation (format, dates, consistency)
+- 📦 **Kaggle-Ready Package**: Complete release folder with data dictionary and description
+- 📊 **Reproducible EDA**: Python script + Jupyter notebook with 6 visualizations
+- 🏗️ **Professional Structure**: Modular codebase following Python best practices
+- 📈 **100% Test Coverage**: All parsing and validation functions tested
+- 🔍 **Duplicate Detection**: Automatic identification and removal of duplicate matches
+- 📝 **Complete Documentation**: README, data dictionary, and inline code comments
 
-2. **`sri_lanka_international_cricket_matches_2000_present_clean.csv`** (Clean & Validated) ⭐
-   - **Recommended for analysis**
-   - All validation checks passed
-   - Standardized values
-   - Duplicate-free
-   - Ready for Kaggle upload
+---
 
-## 🚀 Quick Start
+## 📁 Repository Structure
+
+```
+sri-lanka-cricket-dataset/
+│
+├── src/                                    # Source code
+│   ├── build_dataset.py                   # Data extraction & parsing pipeline
+│   └── clean_dataset.py                   # Data validation & cleaning pipeline
+│
+├── notebooks/                              # Analysis notebooks
+│   ├── 01_eda_sri_lanka_cricket.ipynb     # Interactive Jupyter notebook
+│   └── eda_sri_lanka_cricket.py           # Standalone Python EDA script
+│
+├── eda_outputs/                            # Generated visualizations
+│   ├── matches_per_year.png               # Time series of matches
+│   ├── matches_by_format.png              # Format distribution
+│   ├── match_outcomes.png                 # Win/loss breakdown
+│   ├── top_opponents.png                  # Most played opponents
+│   └── top_grounds.png                    # Most frequent venues
+│
+├── kaggle_release/                         # 📦 Kaggle publication package
+│   ├── sri_lanka_international_cricket_matches_2000_present_clean.csv
+│   ├── data_dictionary.md                 # Detailed column descriptions
+│   └── kaggle_description.md              # Kaggle dataset card (copy-paste ready)
+│
+├── tests/                                  # Unit tests
+│   ├── test_build_dataset.py              # 24 tests for parsing functions
+│   └── test_clean_dataset.py              # 17 tests for validation functions
+│
+├── sri_lanka_international_cricket_matches_2000_present.csv        # Raw output
+├── sri_lanka_international_cricket_matches_2000_present_clean.csv  # Clean output ⭐
+├── data_dictionary.md                      # Column documentation
+├── requirements.txt                        # Python dependencies
+├── .gitignore                              # Git ignore rules
+└── README.md                               # This file
+```
+
+**What Each Component Does:**
+
+- **`src/build_dataset.py`**: Downloads Cricsheet data, parses JSON, filters Sri Lanka matches
+- **`src/clean_dataset.py`**: Validates data quality, removes duplicates, normalizes formats
+- **`notebooks/`**: Exploratory data analysis with visualizations and statistics
+- **`eda_outputs/`**: All generated charts (PNG format, 300 DPI)
+- **`kaggle_release/`**: Complete package for Kaggle dataset upload
+- **`tests/`**: Automated testing suite (pytest framework)
+
+---
+
+## 🛠️ How to Run the Project
 
 ### Prerequisites
-- Python 3.8 or higher
-- pip
 
-### Installation
+- **Python 3.8+** installed
+- **pip** package manager
+- Internet connection (for Cricsheet downloads)
 
-1. **Clone this repository**
+### Step 1: Clone Repository
+
 ```bash
 git clone https://github.com/visurarodrigo/sl-cricket-kaggle-dataset.git
 cd sl-cricket-kaggle-dataset
 ```
 
-2. **Install dependencies**
+### Step 2: Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### How to Run
+### Step 3: Generate Raw Dataset
 
-**Step 1: Generate Raw Dataset**
-```bash
-python -m src.build_dataset
-```
-This downloads Cricsheet data and creates the raw CSV file.
-
-**Step 2: Clean & Validate Dataset**
-```bash
-python -m src.clean_dataset
-```
-This validates, cleans, and generates the Kaggle-ready CSV file.
-
-**Step 3: Run EDA (Optional)**
-```bash
-python notebooks/eda_sri_lanka_cricket.py
-```
-Or open `eda_sri_lanka_cricket.ipynb` in Jupyter for interactive analysis.
-
-**Step 4: Run Tests**
-```bash
-pytest tests/ -v
-```
-
-### Option 1: Generate Both Raw and Clean Datasets (Recommended)
-
-**Step 1: Generate raw dataset**
 ```bash
 python -m src.build_dataset
 ```
 
-**Step 2: Validate and clean the dataset**
+**What happens:**
+1. Downloads Cricsheet data (tests_json.zip, odis_json.zip, t20s_json.zip)
+2. Extracts and parses JSON match files
+3. Filters for Sri Lanka matches from 2000 onwards
+4. Outputs: `sri_lanka_international_cricket_matches_2000_present.csv`
+
+**Expected runtime:** 3-10 minutes (depending on internet speed)
+
+### Step 4: Clean & Validate Dataset
+
 ```bash
 python -m src.clean_dataset
 ```
 
-This will create both:
-- `sri_lanka_international_cricket_matches_2000_present.csv` (raw)
-- `sri_lanka_international_cricket_matches_2000_present_clean.csv` (cleaned & validated)
+**What happens:**
+1. Validates all columns and data formats
+2. Removes duplicates (if any)
+3. Normalizes margin text format
+4. Outputs: `sri_lanka_international_cricket_matches_2000_present_clean.csv`
 
-### Option 2: Quick Start - Just Get the Raw Data
-
-Simply run:
-```bash
-python -m src.build_dataset
-```
-
-The script will:
-1. Download Cricsheet data (tests, ODIs, T20s)
-2. Extract and parse JSON files
-3. Filter for Sri Lanka matches from 2000 onwards
-4. Generate the raw CSV dataset
-
-### What the Cleaning Script Does
-
-The data cleaning script (`clean_dataset.py`) performs comprehensive quality checks:
-
-**Validation:**
-- ✓ Verifies all required columns are present
-- ✓ Validates Match_Format values (Test, ODI, T20)
-- ✓ Checks date format (YYYY-MM-DD)
-- ✓ Ensures Year matches Match_Date
-- ✓ Validates Winner values
-- ✓ Confirms Opponent is never "Sri Lanka"
-
-**Cleaning:**
-- ✓ Trims whitespace from all fields
-- ✓ Standardizes categorical values
-- ✓ Normalizes margin text format
-- ✓ Removes duplicate matches
-- ✓ Filters invalid rows
-
-**Output:**
+**Expected output:**
 ```
 ================================================================================
 CLEANING SUMMARY
 ================================================================================
-Total rows before:        657
-Total rows after:         652
-Duplicates removed:       3
-Invalid rows removed:     2
-Data quality:             99.24% retained
+Total rows before:        1082
+Total rows after:         1082
+Duplicates removed:       0
+Invalid rows removed:     0
+Data quality:             100.00% retained
 ```
 
-### Expected Output
-```
-================================================================================
-Sri Lanka International Cricket Dataset Builder
-================================================================================
+### Step 5: Run Exploratory Data Analysis (Optional)
 
-================================================================================
-Processing TESTS
-================================================================================
-Downloading https://cricsheet.org/downloads/tests_json.zip
-...
-Successfully downloaded tests_json.zip
-Extracting tests_json.zip
-Processing 2500 Test matches
-Found 150 Sri Lanka Test matches from 2000 onwards
-
-[Process repeats for ODIs and T20s]
-
-================================================================================
-SUCCESS!
-================================================================================
-Dataset saved to: sri_lanka_international_cricket_matches_2000_present.csv
-Total matches: 650
-Date range: 2000-01-15 to 2025-12-20
-
-Breakdown by format:
-Test    150
-ODI     350
-T20     150
-
-Breakdown by winner:
-Sri Lanka      280
-Opponent       250
-No Result       60
-Draw            40
-Tie             20
+**Option A: Python Script**
+```bash
+cd notebooks
+python eda_sri_lanka_cricket.py
 ```
 
-## 🧪 Testing
+**Option B: Jupyter Notebook**
+```bash
+jupyter notebook notebooks/01_eda_sri_lanka_cricket.ipynb
+```
 
-Run unit tests with:
+**Generates:**
+- 6 visualization charts in `eda_outputs/`
+- Comprehensive statistics printed to console
+
+### Step 6: Run Tests (Optional)
+
 ```bash
 pytest tests/ -v
 ```
 
-Or:
+**Expected:** All 41 tests pass (24 build + 17 validation)
+
+---
+
+## 📦 Outputs
+
+### 1. Raw Dataset
+
+**File:** `sri_lanka_international_cricket_matches_2000_present.csv`
+
+- Direct extraction from Cricsheet data
+- Minimal processing applied
+- Use for: Understanding raw data structure
+
+### 2. Clean Dataset ⭐ (Recommended)
+
+**File:** `sri_lanka_international_cricket_matches_2000_present_clean.csv`
+
+- **Validated**: All columns pass format checks
+- **Deduplicated**: No duplicate match records
+- **Standardized**: Consistent naming and formatting
+- **Kaggle-Ready**: No preprocessing needed
+- Use for: Analysis, machine learning, Kaggle upload
+
+**Quality Metrics:**
+- ✅ 1,082 matches validated
+- ✅ 100% data retention rate
+- ✅ 0 duplicates found
+- ✅ All dates in YYYY-MM-DD format
+- ✅ All formats validated (Test/ODI/T20)
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+### Generated Visualizations
+
+The EDA pipeline creates 6 comprehensive charts:
+
+1. **`matches_per_year.png`** - Time series showing match frequency (2002-2026)
+2. **`matches_by_format.png`** - Distribution across Test, ODI, and T20 formats
+3. **`match_outcomes.png`** - Win/loss breakdown for Sri Lanka
+4. **`top_opponents.png`** - Top 10 most played opponents
+5. **`top_grounds.png`** - Top 10 most frequent match venues
+
+### Key Insights
+
+📈 **Match Statistics:**
+- Peak year: **2024** (75 matches)
+- Average: **43.3 matches/year**
+- ODI most common format: **52.9%** (572 matches)
+
+🏆 **Performance:**
+- Overall win rate: **45.2%** (452 wins in 1,000 decided matches)
+- Test win rate: **48.9%**
+- ODI win rate: **46.0%**
+- T20 win rate: **42.3%**
+
+🌍 **Opponents:**
+- Most played: **India** (179 matches)
+- Total unique opponents: **23 countries**
+- Total unique venues: **208 grounds**
+
+---
+
+## 📦 Kaggle Release
+
+### What's in `kaggle_release/`?
+
+This folder contains everything needed to publish on Kaggle:
+
+1. **`sri_lanka_international_cricket_matches_2000_present_clean.csv`**
+   - The validated, analysis-ready dataset
+   
+2. **`data_dictionary.md`**
+   - Detailed column descriptions
+   - Data types and examples
+   - Usage guidelines
+
+3. **`kaggle_description.md`**
+   - Complete Kaggle dataset card
+   - Copy-paste ready for Kaggle upload
+   - Includes: overview, columns, use cases, attribution, limitations
+
+### How to Upload to Kaggle
+
+**Method 1: Web Interface (Recommended)**
+
+1. Go to [kaggle.com](https://www.kaggle.com/datasets) → Create → New Dataset
+2. Upload the clean CSV from `kaggle_release/`
+3. Copy content from `kaggle_description.md` into description field
+4. Set metadata:
+   - **License**: CC BY 4.0
+   - **Tags**: cricket, sports, time-series, classification, sri-lanka
+5. Click "Create Dataset"
+
+**Method 2: Kaggle API**
+
 ```bash
-python -m pytest tests/ -v
+pip install kaggle
+cd kaggle_release
+kaggle datasets create -p .
 ```
 
-## 📁 Project Structure
+*(Requires `kaggle.json` credentials in `~/.kaggle/`)*
 
-```
-.
-├── src/
-│   ├── __init__.py
-│   ├── build_dataset.py              # Main dataset generation script
-│   └── clean_dataset.py              # Data validation & cleaning script
-├── tests/
-│   ├── __init__.py
-│   ├── test_build_dataset.py         # Build tests (24 tests)
-│   └── test_clean_dataset.py         # Validation tests (17 tests)
-├── notebooks/
-│   └── eda_sri_lanka_cricket.py      # EDA Python script
-├── kaggle_release/                    # 📦 Kaggle-ready package
-│   ├── sri_lanka_international_cricket_matches_2000_present_clean.csv
-│   ├── data_dictionary.md
-│   └── kaggle_description.md         # Copy-paste into Kaggle
-├── eda_sri_lanka_cricket.ipynb       # Interactive EDA notebook
-├── data_dictionary.md                 # Detailed column descriptions
-├── .gitignore                         # Git ignore rules
-├── requirements.txt                   # Python dependencies
-└── README.md                          # This file
-```
+---
 
-## 📖 Data Dictionary
+## 🔬 Data Source & Attribution
 
-For detailed information about each column, see [data_dictionary.md](data_dictionary.md).
+### Primary Data Source
 
-**Quick Reference:**
-- **Match_Date**: Date in YYYY-MM-DD format
-- **Match_Format**: Test, ODI, or T20
-- **Opponent**: Team that played against Sri Lanka
-- **Winner**: Match outcome (Sri Lanka, Opponent, Draw, Tie, No Result)
-- **Margin**: Victory margin (e.g., "5 wickets", "123 runs")
-- **Ground**: Venue/stadium name
-- **Year**: Match year (2000-2026)
+**Cricsheet** ([cricsheet.org](https://cricsheet.org/))
 
-## 🔧 Technical Details
+Cricsheet provides comprehensive ball-by-ball cricket data in JSON format for international and domestic matches.
 
-### Data Sources
-
-**Primary Source: [Cricsheet](https://cricsheet.org/)**
-
-Cricsheet provides comprehensive ball-by-ball cricket data in JSON format for international and domestic cricket. This project uses their match-level data.
-
-**Downloads:**
+**Downloads Used:**
 - Test matches: `https://cricsheet.org/downloads/tests_json.zip`
 - ODI matches: `https://cricsheet.org/downloads/odis_json.zip`
 - T20 matches: `https://cricsheet.org/downloads/t20s_json.zip`
 
-**Attribution:**  
-Cricket data provided by Cricsheet (https://cricsheet.org/), created and maintained by Stephen Rushe. Licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+### Attribution Requirements
 
-When using this dataset, please credit:
-- **Data Source**: Cricsheet (https://cricsheet.org/)
-- **Creator**: Stephen Rushe
-- **License**: CC BY 4.0
+When using this dataset, please cite:
 
-### Libraries Used
-- **pandas** (2.1.4): Data manipulation and CSV generation
-- **requests** (2.31.0): HTTP requests for downloading data
-- **tqdm** (4.66.1): Progress bars for better UX
-- **pytest** (7.4.3): Testing framework
-
-### Key Features
-- ✅ **Data Quality**: Comprehensive validation and cleaning pipeline
-- ✅ **Robust Error Handling**: Network and file operations with proper error handling
-- ✅ **Progress Tracking**: Real-time progress bars for downloads and processing
-- ✅ **Detailed Logging**: Timestamped logs for debugging and monitoring
-- ✅ **Comprehensive Tests**: Unit tests for parsing and validation functions
-- ✅ **Sri Lanka Filter**: Only matches where Sri Lanka participated (2000+)
-- ✅ **Format Handling**: Automatic date parsing and format standardization
-- ✅ **Winner Categorization**: Clear match outcome classification
-- ✅ **Duplicate Detection**: Automatic removal of duplicate match records
-- ✅ **Clean Code**: Well-structured, documented, maintainable codebase
-
-### Kaggle-Ready Features
-- 📊 **No Missing Values**: All critical fields populated
-- 📊 **Standardized Format**: Consistent naming and formatting
-- 📊 **Quality Validated**: All rows pass data integrity checks
-- 📊 **Analysis Ready**: No preprocessing needed
-- 📊 **Well Documented**: Comprehensive data dictionary included
-- 📊 **Citation Info**: Proper attribution and licensing information
-
-### Winner Logic
-The `Winner` column follows this logic:
-- **Sri Lanka**: Sri Lanka won the match
-- **Opponent**: The opposing team won
-- **Draw**: Match ended in a draw (common in Tests)
-- **Tie**: Match ended in a tie (rare)
-- **No Result**: Match abandoned/no result
-- **Empty string**: Unknown outcome (rare edge cases)
-
-## 🐛 Troubleshooting
-
-### Download Issues
-If downloads fail:
-- Check your internet connection
-- Verify Cricsheet URLs are accessible
-- Try again (temporary network issues)
-
-### Missing Matches
-If some matches seem missing:
-- Verify the match involved Sri Lanka as a team
-- Check that the match date is 2000 or later
-- Ensure the source JSON has valid date information
-
-### Import Errors
-If you get import errors:
-```bash
-# Ensure you're running from the project root
-python -m src.build_dataset
-
-# Not:
-python src/build_dataset.py
 ```
-
-## � Kaggle Upload Steps
-
-Ready to publish your dataset on Kaggle? Follow these steps:
-
-### 1. Prepare Kaggle Release Package
-
-The `kaggle_release/` folder contains everything you need:
-- `sri_lanka_international_cricket_matches_2000_present_clean.csv` - The dataset
-- `data_dictionary.md` - Column descriptions
-- `kaggle_description.md` - Dataset overview (copy-paste into Kaggle)
-
-### 2. Upload to Kaggle
-
-**Option A: Using Kaggle Web Interface (Recommended)**
-
-1. Go to [kaggle.com](https://www.kaggle.com/) and sign in
-2. Click on your profile → "Create" → "New Dataset"
-3. **Upload Files**:
-   - Drag and drop the CSV file from `kaggle_release/`
-   - Or click "Select Files from Computer"
-4. **Fill in Metadata**:
-   - **Title**: Sri Lanka International Cricket Matches (2000-2026)
-   - **Subtitle**: Complete performance dataset across Test, ODI, and T20 formats
-   - **Description**: Copy content from `kaggle_release/kaggle_description.md`
-   - **Tags**: cricket, sports, time-series, classification, sri-lanka
-5. **Set License**: CC BY 4.0 (Creative Commons Attribution)
-6. **Add Data Sources**: Mention Cricsheet (https://cricsheet.org/)
-7. Click "Create Dataset"
-
-**Option B: Using Kaggle API**
-
-```bash
-# Install Kaggle API
-pip install kaggle
-
-# Configure credentials (get from kaggle.com/account)
-# Place kaggle.json in ~/.kaggle/ (Linux/Mac) or C:\Users\<user>\.kaggle\ (Windows)
-
-# Navigate to kaggle_release folder
-cd kaggle_release
-
-# Create dataset-metadata.json (template below)
-# Then run:
-kaggle datasets create -p .
-```
-
-**dataset-metadata.json template:**
-```json
-{
-  "title": "Sri Lanka International Cricket Matches (2000-2026)",
-  "id": "yourusername/sri-lanka-cricket-2000-2026",
-  "licenses": [{"name": "CC-BY-4.0"}],
-  "keywords": ["cricket", "sports", "sri-lanka", "time-series", "classification"]
-}
-```
-
-### 3. Post-Upload Checklist
-
-- [ ] Verify CSV uploaded correctly
-- [ ] Add cover image (optional: cricket-related image)
-- [ ] Include attribution to Cricsheet in description
-- [ ] Add example code in Kaggle notebook
-- [ ] Share on social media / LinkedIn
-
-## �📝 Notes
-
-- **Temporary Files**: The script creates a `temp/` directory with downloaded files. You can delete this after the CSV is generated.
-- **Processing Time**: Downloading and processing all formats takes 5-15 minutes depending on your connection.
-- **Data Updates**: Cricsheet updates regularly. Re-run the script to get the latest data.
-
-## 📜 License
-
-This project is provided as-is for educational and research purposes.
-
-**Dataset License:**  
-The cricket data is sourced from [Cricsheet](https://cricsheet.org/) and is licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-
-**Code License:**  
-The Python scripts and code in this repository are open source and free to use.
-
-**Citation:**  
-When using this dataset in research, publications, or Kaggle competitions, please cite:
-```
-Sri Lanka International Cricket Performance Dataset (2000-2026)
+Sri Lanka International Cricket Performance Dataset (2000–Present)
 Data Source: Cricsheet (https://cricsheet.org/)
-Creator: Stephen Rushe  
-License: CC BY 4.0
-GitHub: https://github.com/visurarodrigo/sl-cricket-kaggle-dataset
-Date Range: January 2000 - January 30, 2026
+Created by: Stephen Rushe
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+GitHub Repository: https://github.com/visurarodrigo/sl-cricket-kaggle-dataset
 ```
-
-## 🎯 Use Cases
-
-This dataset is perfect for:
-- 🏏 **Cricket Analytics**: Analyze Sri Lanka's performance trends over time
-- 📊 **Data Visualization**: Create interactive dashboards and charts
-- 🤖 **Machine Learning**: Predict match outcomes, win probabilities
-- 📈 **Statistical Analysis**: Study home/away performance, opponent analysis
-- 🎓 **Educational Projects**: Learn data analysis with real-world sports data
-- 🏆 **Kaggle Competitions**: Use as a foundation for cricket prediction models
-
-## 🙏 Acknowledgments
-
-- **Cricsheet**: For providing comprehensive cricket data
-- **Stephen Rushe**: Creator and maintainer of Cricsheet
-
-## 🤝 Contributing
-
-Feel free to:
-- Report bugs or issues
-- Suggest improvements
-- Submit pull requests
-
-## 📧 Contact
-
-For questions or issues, please open an issue in the repository.
 
 ---
 
-**Happy Data Science!** 🏏📊
+## 📜 License & Usage Notes
+
+### Dataset License
+
+The cricket data is sourced from [Cricsheet](https://cricsheet.org/) and is licensed under:
+- **[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**
+
+**You are free to:**
+- ✅ Share — copy and redistribute the material
+- ✅ Adapt — remix, transform, and build upon the material
+- ✅ Commercial use — use for commercial purposes
+
+**Under these terms:**
+- 📝 Attribution — Must give appropriate credit to Cricsheet
+
+### Code License
+
+The Python scripts and code in this repository are open source and free to use for educational and research purposes.
+
+### Usage Guidelines
+
+- Always credit Cricsheet when publishing analyses or papers
+- Do not claim the data as your own creation
+- Respect the CC BY 4.0 license terms
+- Cite this repository if you use the cleaned dataset version
+
+---
+
+## 🔮 Future Improvements
+
+Potential enhancements for this project:
+
+### Data Enhancements
+- 🏠 **Home/Away Classification**: Add home/away match indicator
+- 👤 **Player-Level Statistics**: Include top scorers, bowlers for each match
+- 🌤️ **Match Conditions**: Weather, pitch conditions, toss information
+- 📍 **Geographic Data**: Latitude/longitude for all venues
+- 🔢 **Team Rankings**: Historical ICC rankings at match time
+
+### Analysis Extensions
+- 🤖 **ML Models**: Predict match outcomes based on historical data
+- 📊 **Power BI Dashboard**: Interactive dashboard for visualization
+- 📈 **Time Series Forecasting**: Predict future performance trends
+- 🔍 **Opponent Analysis**: Deep-dive into head-to-head records
+- 🏆 **Tournament Segmentation**: World Cup, bilateral series breakdown
+
+### Technical Improvements
+- ⚡ **Real-time Updates**: GitHub Actions to auto-update dataset monthly
+- 🐳 **Dockerization**: Container for reproducible execution
+- 🌐 **Web API**: REST API to query dataset programmatically
+- 📱 **Mobile Dashboard**: React Native app for dataset exploration
+
+**Contributions welcome!** Open an issue or pull request to suggest improvements.
+
+---
+
+## 👨‍💻 Author
+
+**Visura Rodrigo**
+
+- 🔗 GitHub: [@visurarodrigo](https://github.com/visurarodrigo)
+- 📧 Contact: Open an issue in this repository for questions
+- 💼 Project: Data Engineering Portfolio Project
+
+### About This Project
+
+Built as a demonstration of:
+- Data engineering best practices
+- ETL pipeline development
+- Data quality assurance
+- Python software engineering
+- Open-source dataset creation
+
+Perfect for recruiters evaluating data engineering skills! 🎯
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Report Bugs**: Open an issue with details
+2. **Suggest Features**: Propose enhancements via issues
+3. **Submit PRs**: Fork, create a branch, and submit pull requests
+4. **Improve Docs**: Fix typos or add clarifications
+
+---
+
+## 🙏 Acknowledgments
+
+- **Stephen Rushe** - Creator and maintainer of [Cricsheet](https://cricsheet.org/)
+- **Cricsheet Community** - For providing comprehensive cricket data
+- **Open Source Community** - For tools like pandas, pytest, and Python
+
+---
+
+## 📧 Support
+
+Need help? Have questions?
+
+- 📝 **Open an Issue**: [GitHub Issues](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset/issues)
+- 📖 **Read the Docs**: Check [data_dictionary.md](data_dictionary.md) for column details
+- 🧪 **Run Tests**: `pytest tests/ -v` to verify setup
+
+---
+
+**Happy Data Science!** 🏏📊✨
+
+---
+
+*Last Updated: February 2026 | Dataset Version: 1.0 | Matches: 1,082*

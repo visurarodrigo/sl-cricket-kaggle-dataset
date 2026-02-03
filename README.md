@@ -1,12 +1,12 @@
-# Sri Lanka International Cricket Performance Dataset (2000–Present)
+# Sri Lanka International Cricket Performance Dataset (2000–2026)
 
-A clean, well-structured Python project to generate a comprehensive **Kaggle-ready** dataset of Sri Lanka's international cricket matches from 2000 to the present, using official [Cricsheet](https://cricsheet.org/) data.
+A clean, well-structured Python project to generate a comprehensive **Kaggle-ready** dataset of Sri Lanka's international cricket matches from January 2000 to January 30, 2026, using official [Cricsheet](https://cricsheet.org/) data.
 
 ## 📊 Dataset Overview
 
 ### About This Dataset
 
-This dataset provides a comprehensive record of Sri Lanka's performance in international cricket across all three major formats from January 1, 2000 to the present. Perfect for cricket analytics, machine learning projects, sports data visualization, and statistical analysis.
+This dataset provides a comprehensive record of Sri Lanka's performance in international cricket across all three major formats from January 2000 to January 30, 2026. Perfect for cricket analytics, machine learning projects, sports data visualization, and statistical analysis.
 
 **Key Features:**
 - ✅ **Complete Coverage**: All Sri Lanka international matches (Tests, ODIs, T20s) from 2000 onwards
@@ -192,7 +192,7 @@ For detailed information about each column, see [data_dictionary.md](data_dictio
 - **Winner**: Match outcome (Sri Lanka, Opponent, Draw, Tie, No Result)
 - **Margin**: Victory margin (e.g., "5 wickets", "123 runs")
 - **Ground**: Venue/stadium name
-- **Year**: Match year (2000-present)
+- **Year**: Match year (2000-2026)
 
 ## 🔧 Technical Details
 
@@ -293,11 +293,12 @@ The Python scripts and code in this repository are open source and free to use.
 **Citation:**  
 When using this dataset in research, publications, or Kaggle competitions, please cite:
 ```
-Sri Lanka International Cricket Performance Dataset (2000-Present)
+Sri Lanka International Cricket Performance Dataset (2000-2026)
 Data Source: Cricsheet (https://cricsheet.org/)
 Creator: Stephen Rushe  
 License: CC BY 4.0
 GitHub: https://github.com/visurarodrigo/sl-cricket-kaggle-dataset
+Date Range: January 2000 - January 30, 2026
 ```
 
 ## 🎯 Use Cases

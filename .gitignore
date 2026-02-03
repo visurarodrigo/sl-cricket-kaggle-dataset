@@ -39,14 +39,13 @@ venv/
 .coverage
 htmlcov/
 
-# Data files
+# Data files (exclude raw downloads but keep final CSVs)
 *.zip
-*.json
-data/
 temp/
 
-# Output
-*.csv
+# Keep the final dataset CSVs for Kaggle
+# !sri_lanka_international_cricket_matches_2000_present.csv
+# !sri_lanka_international_cricket_matches_2000_present_clean.csv
 
 # OS
 .DS_Store

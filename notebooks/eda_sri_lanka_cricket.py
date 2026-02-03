@@ -27,7 +27,7 @@ def load_data():
     print()
     
     # Load the clean dataset
-    df = pd.read_csv('sri_lanka_international_cricket_matches_2000_present_clean.csv')
+    df = pd.read_csv('../sri_lanka_international_cricket_matches_2000_present_clean.csv')
     
     print(f"Dataset Shape: {df.shape[0]} rows × {df.shape[1]} columns")
     print()
@@ -81,8 +81,8 @@ def plot_matches_per_year(df):
     plt.tight_layout()
     
     # Save figure
-    plt.savefig('matches_per_year.png', dpi=300, bbox_inches='tight')
-    print("✓ Chart saved: matches_per_year.png")
+    plt.savefig('../eda_outputs/matches_per_year.png', dpi=300, bbox_inches='tight')
+    print("✓ Chart saved: eda_outputs/matches_per_year.png")
     
     plt.close()  # Close figure instead of showing
     
@@ -123,8 +123,8 @@ def plot_matches_by_format(df):
     plt.tight_layout()
     
     # Save figure
-    plt.savefig('matches_by_format.png', dpi=300, bbox_inches='tight')
-    print("✓ Chart saved: matches_by_format.png")
+    plt.savefig('../eda_outputs/matches_by_format.png', dpi=300, bbox_inches='tight')
+    print("✓ Chart saved: eda_outputs/matches_by_format.png")
     
     plt.close()
     
@@ -165,8 +165,8 @@ def plot_match_outcomes(df):
     plt.tight_layout()
     
     # Save figure
-    plt.savefig('match_outcomes.png', dpi=300, bbox_inches='tight')
-    print("✓ Chart saved: match_outcomes.png")
+    plt.savefig('../eda_outputs/match_outcomes.png', dpi=300, bbox_inches='tight')
+    print("✓ Chart saved: eda_outputs/match_outcomes.png")
     
     plt.close()
     
@@ -212,8 +212,8 @@ def plot_top_opponents(df):
     plt.tight_layout()
     
     # Save figure
-    plt.savefig('top_opponents.png', dpi=300, bbox_inches='tight')
-    print("✓ Chart saved: top_opponents.png")
+    plt.savefig('../eda_outputs/top_opponents.png', dpi=300, bbox_inches='tight')
+    print("✓ Chart saved: eda_outputs/top_opponents.png")
     
     plt.close()
     
@@ -260,8 +260,8 @@ def plot_top_grounds(df):
     plt.tight_layout()
     
     # Save figure
-    plt.savefig('top_grounds.png', dpi=300, bbox_inches='tight')
-    print("✓ Chart saved: top_grounds.png")
+    plt.savefig('../eda_outputs/top_grounds.png', dpi=300, bbox_inches='tight')
+    print("✓ Chart saved: eda_outputs/top_grounds.png")
     
     plt.close()
     

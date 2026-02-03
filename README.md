@@ -190,6 +190,31 @@ pytest tests/ -v
 
 **Expected:** All 41 tests pass (24 build + 17 validation)
 
+### 🔄 Automated Monthly Updates
+
+**Manual Update (Run once per month):**
+```bash
+python update_dataset.py
+```
+
+This single script automatically:
+- ✅ Downloads latest Cricsheet data
+- ✅ Rebuilds and cleans dataset
+- ✅ Regenerates all visualizations
+- ✅ Updates README statistics
+- ✅ Commits and pushes to GitHub
+
+**Fully Automated (GitHub Actions):**
+
+The repository includes a GitHub Actions workflow that runs automatically on the 1st of every month. No manual intervention needed!
+
+- 📅 **Schedule:** Runs automatically monthly
+- 🔧 **Manual Trigger:** Can also run from GitHub Actions tab
+- 📊 **Updates:** Dataset, charts, README, and Kaggle release folder
+- 🚀 **Auto-commit:** Changes are automatically committed and pushed
+
+To enable: Just push the `.github/workflows/monthly_update.yml` file to your repository.
+
 ---
 
 ## 📦 Outputs

@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Dataset](https://img.shields.io/badge/matches-1082-orange.svg)](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset)
-[![Kaggle Ready](https://img.shields.io/badge/kaggle-ready-success.svg)](https://www.kaggle.com/)
+[![Kaggle Dataset](https://img.shields.io/badge/kaggle-dataset-20BEFF.svg)](https://www.kaggle.com/datasets/visurarodrigo/sri-lanka-international-cricket-matches-2000pre)
 [![Data Engineering](https://img.shields.io/badge/type-data%20engineering-blueviolet.svg)](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset)
 
 ## 📋 Overview
@@ -11,6 +11,8 @@
 An end-to-end **data engineering pipeline** that extracts, cleans, validates, and publishes a comprehensive dataset of Sri Lanka's international cricket matches. Built with professional standards for data quality, reproducibility, and Kaggle publication readiness.
 
 This project transforms raw cricket data from [Cricsheet](https://cricsheet.org/) into analysis-ready CSV files with comprehensive validation, automated testing, and exploratory data analysis.
+
+🎯 **[View Dataset on Kaggle →](https://www.kaggle.com/datasets/visurarodrigo/sri-lanka-international-cricket-matches-2000pre)**
 
 ---
 
@@ -252,6 +254,12 @@ The EDA pipeline creates 6 comprehensive charts:
 ---
 
 ## 📦 Kaggle Release
+
+### 🌟 Live Dataset
+
+**[View on Kaggle →](https://www.kaggle.com/datasets/visurarodrigo/sri-lanka-international-cricket-matches-2000pre)**
+
+The dataset is now live and available for the community to use!
 
 ### What's in `kaggle_release/`?
 

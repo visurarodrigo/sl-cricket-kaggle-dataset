@@ -1,5 +1,10 @@
 # Sri Lanka International Cricket Performance Dataset (2000–2026)
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)
+![Dataset](https://img.shields.io/badge/matches-1082-orange.svg)
+![Status](https://img.shields.io/badge/status-kaggle%20ready-success.svg)
+
 A clean, well-structured Python project to generate a comprehensive **Kaggle-ready** dataset of Sri Lanka's international cricket matches from January 2000 to January 30, 2026, using official [Cricsheet](https://cricsheet.org/) data.
 
 ## 📊 Dataset Overview
@@ -35,6 +40,22 @@ This dataset provides a comprehensive record of Sri Lanka's performance in inter
 | `Ground` | Venue name | `Galle International Stadium` |
 | `Year` | Match year | `2020` |
 
+## � Output Files
+
+This project generates two CSV files:
+
+1. **`sri_lanka_international_cricket_matches_2000_present.csv`** (Raw)
+   - Direct extraction from Cricsheet data
+   - 1,082 matches
+   - Minimal processing
+
+2. **`sri_lanka_international_cricket_matches_2000_present_clean.csv`** (Clean & Validated) ⭐
+   - **Recommended for analysis**
+   - All validation checks passed
+   - Standardized values
+   - Duplicate-free
+   - Ready for Kaggle upload
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -52,6 +73,31 @@ cd sl-cricket-kaggle-dataset
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+```
+
+### How to Run
+
+**Step 1: Generate Raw Dataset**
+```bash
+python -m src.build_dataset
+```
+This downloads Cricsheet data and creates the raw CSV file.
+
+**Step 2: Clean & Validate Dataset**
+```bash
+python -m src.clean_dataset
+```
+This validates, cleans, and generates the Kaggle-ready CSV file.
+
+**Step 3: Run EDA (Optional)**
+```bash
+python notebooks/eda_sri_lanka_cricket.py
+```
+Or open `eda_sri_lanka_cricket.ipynb` in Jupyter for interactive analysis.
+
+**Step 4: Run Tests**
+```bash
+pytest tests/ -v
 ```
 
 ### Option 1: Generate Both Raw and Clean Datasets (Recommended)
@@ -170,15 +216,23 @@ python -m pytest tests/ -v
 .
 ├── src/
 │   ├── __init__.py
-│   ├── build_dataset.py          # Main dataset generation script
-│   └── clean_dataset.py          # Data validation & cleaning script
+│   ├── build_dataset.py              # Main dataset generation script
+│   └── clean_dataset.py              # Data validation & cleaning script
 ├── tests/
 │   ├── __init__.py
-│   └── test_build_dataset.py     # Unit tests
-├── data_dictionary.md             # Detailed column descriptions
-├── .gitignore                     # Git ignore rules
-├── requirements.txt               # Python dependencies
-└── README.md                      # This file
+│   ├── test_build_dataset.py         # Build tests (24 tests)
+│   └── test_clean_dataset.py         # Validation tests (17 tests)
+├── notebooks/
+│   └── eda_sri_lanka_cricket.py      # EDA Python script
+├── kaggle_release/                    # 📦 Kaggle-ready package
+│   ├── sri_lanka_international_cricket_matches_2000_present_clean.csv
+│   ├── data_dictionary.md
+│   └── kaggle_description.md         # Copy-paste into Kaggle
+├── eda_sri_lanka_cricket.ipynb       # Interactive EDA notebook
+├── data_dictionary.md                 # Detailed column descriptions
+├── .gitignore                         # Git ignore rules
+├── requirements.txt                   # Python dependencies
+└── README.md                          # This file
 ```
 
 ## 📖 Data Dictionary
@@ -274,7 +328,71 @@ python -m src.build_dataset
 python src/build_dataset.py
 ```
 
-## 📝 Notes
+## � Kaggle Upload Steps
+
+Ready to publish your dataset on Kaggle? Follow these steps:
+
+### 1. Prepare Kaggle Release Package
+
+The `kaggle_release/` folder contains everything you need:
+- `sri_lanka_international_cricket_matches_2000_present_clean.csv` - The dataset
+- `data_dictionary.md` - Column descriptions
+- `kaggle_description.md` - Dataset overview (copy-paste into Kaggle)
+
+### 2. Upload to Kaggle
+
+**Option A: Using Kaggle Web Interface (Recommended)**
+
+1. Go to [kaggle.com](https://www.kaggle.com/) and sign in
+2. Click on your profile → "Create" → "New Dataset"
+3. **Upload Files**:
+   - Drag and drop the CSV file from `kaggle_release/`
+   - Or click "Select Files from Computer"
+4. **Fill in Metadata**:
+   - **Title**: Sri Lanka International Cricket Matches (2000-2026)
+   - **Subtitle**: Complete performance dataset across Test, ODI, and T20 formats
+   - **Description**: Copy content from `kaggle_release/kaggle_description.md`
+   - **Tags**: cricket, sports, time-series, classification, sri-lanka
+5. **Set License**: CC BY 4.0 (Creative Commons Attribution)
+6. **Add Data Sources**: Mention Cricsheet (https://cricsheet.org/)
+7. Click "Create Dataset"
+
+**Option B: Using Kaggle API**
+
+```bash
+# Install Kaggle API
+pip install kaggle
+
+# Configure credentials (get from kaggle.com/account)
+# Place kaggle.json in ~/.kaggle/ (Linux/Mac) or C:\Users\<user>\.kaggle\ (Windows)
+
+# Navigate to kaggle_release folder
+cd kaggle_release
+
+# Create dataset-metadata.json (template below)
+# Then run:
+kaggle datasets create -p .
+```
+
+**dataset-metadata.json template:**
+```json
+{
+  "title": "Sri Lanka International Cricket Matches (2000-2026)",
+  "id": "yourusername/sri-lanka-cricket-2000-2026",
+  "licenses": [{"name": "CC-BY-4.0"}],
+  "keywords": ["cricket", "sports", "sri-lanka", "time-series", "classification"]
+}
+```
+
+### 3. Post-Upload Checklist
+
+- [ ] Verify CSV uploaded correctly
+- [ ] Add cover image (optional: cricket-related image)
+- [ ] Include attribution to Cricsheet in description
+- [ ] Add example code in Kaggle notebook
+- [ ] Share on social media / LinkedIn
+
+## �📝 Notes
 
 - **Temporary Files**: The script creates a `temp/` directory with downloaded files. You can delete this after the CSV is generated.
 - **Processing Time**: Downloading and processing all formats takes 5-15 minutes depending on your connection.

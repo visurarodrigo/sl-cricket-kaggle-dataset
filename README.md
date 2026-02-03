@@ -278,28 +278,6 @@ This folder contains everything needed to publish on Kaggle:
    - Copy-paste ready for Kaggle upload
    - Includes: overview, columns, use cases, attribution, limitations
 
-### How to Upload to Kaggle
-
-**Method 1: Web Interface (Recommended)**
-
-1. Go to [kaggle.com](https://www.kaggle.com/datasets) → Create → New Dataset
-2. Upload the clean CSV from `kaggle_release/`
-3. Copy content from `kaggle_description.md` into description field
-4. Set metadata:
-   - **License**: CC BY 4.0
-   - **Tags**: cricket, sports, time-series, classification, sri-lanka
-5. Click "Create Dataset"
-
-**Method 2: Kaggle API**
-
-```bash
-pip install kaggle
-cd kaggle_release
-kaggle datasets create -p .
-```
-
-*(Requires `kaggle.json` credentials in `~/.kaggle/`)*
-
 ---
 
 ## 🔬 Data Source & Attribution

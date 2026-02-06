@@ -31,6 +31,7 @@ This document provides detailed descriptions of each column in the dataset.
 | **Margin** | String | The victory margin | `5 wickets`, `123 runs`, `` | Format: "X runs" for batting first wins, "X wickets" for chasing wins. Empty for draws, ties, or no results. Singular form used for "1 run" or "1 wicket". |
 | **Ground** | String | The venue/stadium where the match was played | `Galle International Stadium`, `R Premadasa Stadium` | Full venue names as provided by Cricsheet. |
 | **Year** | Integer | The year when the match was played | `2020`, `2015`, `2003` | Extracted from Match_Date for easy filtering and analysis. Range: 2000 to 2026. |
+| **Home_Away** | Categorical | Indicates whether the match was played at home or away | `Home`, `Away` | **Home**: Match played at a Sri Lankan venue; **Away**: Match played at a foreign venue. Classified based on venue location. |
 
 ---
 
@@ -80,6 +81,19 @@ top_opponents = df['Opponent'].value_counts().head(10)
 print(top_opponents)
 ```
 
+**Analyze home vs away performance:**
+```python
+# Compare win rates at home vs away
+home_matches = df[df['Home_Away'] == 'Home']
+away_matches = df[df['Home_Away'] == 'Away']
+
+home_win_rate = len(home_matches[home_matches['Winner'] == 'Sri Lanka']) / len(home_matches[home_matches['Winner'].isin(['Sri Lanka', 'Opponent'])]) * 100
+away_win_rate = len(away_matches[away_matches['Winner'] == 'Sri Lanka']) / len(away_matches[away_matches['Winner'].isin(['Sri Lanka', 'Opponent'])]) * 100
+
+print(f"Home win rate: {home_win_rate:.2f}%")
+print(f"Away win rate: {away_win_rate:.2f}%")
+```
+
 ---
 
 ### Citation
@@ -106,5 +120,5 @@ For issues, questions, or suggestions:
 
 **Version**: 1.0  
 **Generated**: February 2026  
-**Rows**: ~600-800 matches (varies with updates)  
+**Rows**: 1,082 matches (as of January 30, 2026)  
 **Formats**: Test, ODI, T20

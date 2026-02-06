@@ -84,15 +84,23 @@ def update_readme_stats(csv_path):
     )
     
     readme_content = re.sub(
-        r'\| \*\*Total Matches\*\* \| \d+ matches \|',
+        r'\| \*\*Total Matches\*\* \| \d+,?\d* matches \|',
         f'| **Total Matches** | {total_matches:,} matches |',
+        readme_content
+    )
+    
+    # Update Last Updated in data dictionary overview
+    current_month_year = datetime.now().strftime("%B %Y")
+    readme_content = re.sub(
+        r'\*\*Last Updated\*\*: .+ 20\d{2}',
+        f'**Last Updated**: {current_month_year}',
         readme_content
     )
     
     # Update footer
     current_month = datetime.now().strftime("%B %Y")
     readme_content = re.sub(
-        r'\*Last Updated: .+ \| Dataset Version: .+ \| Matches: \d+\*',
+        r'\*Last Updated: .+ \| Dataset Version: .+ \| Matches: \d+,?\d*\*',
         f'*Last Updated: {current_month} | Dataset Version: 1.0 | Matches: {total_matches:,}*',
         readme_content
     )

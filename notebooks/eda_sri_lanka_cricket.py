@@ -271,10 +271,106 @@ def plot_top_grounds(df):
     print(f"  • Total unique venues: {df['Ground'].nunique()}")
 
 
+def analyze_home_away_performance(df):
+    """Analyze home vs away performance."""
+    print("\n" + "=" * 80)
+    print("6. HOME VS AWAY PERFORMANCE")
+    print("=" * 80)
+    
+    # Overall distribution
+    print("\n📊 Overall Distribution:")
+    home_count = len(df[df['Home_Away'] == 'Home'])
+    away_count = len(df[df['Home_Away'] == 'Away'])
+    total = len(df)
+    print(f"  • Home matches: {home_count} ({home_count/total*100:.1f}%)")
+    print(f"  • Away matches: {away_count} ({away_count/total*100:.1f}%)")
+    
+    # Home performance
+    print("\n🏠 Home Performance:")
+    home = df[df['Home_Away'] == 'Home']
+    home_decisive = home[home['Winner'].isin(['Sri Lanka', 'Opponent'])]
+    home_wins = len(home[home['Winner'] == 'Sri Lanka'])
+    home_losses = len(home[home['Winner'] == 'Opponent'])
+    print(f"  • Wins: {home_wins}")
+    print(f"  • Losses: {home_losses}")
+    print(f"  • Other (Draw/Tie/No Result): {len(home) - len(home_decisive)}")
+    if len(home_decisive) > 0:
+        print(f"  • Win rate: {home_wins/len(home_decisive)*100:.1f}% (of decisive matches)")
+    
+    # Away performance
+    print("\n✈️ Away Performance:")
+    away = df[df['Home_Away'] == 'Away']
+    away_decisive = away[away['Winner'].isin(['Sri Lanka', 'Opponent'])]
+    away_wins = len(away[away['Winner'] == 'Sri Lanka'])
+    away_losses = len(away[away['Winner'] == 'Opponent'])
+    print(f"  • Wins: {away_wins}")
+    print(f"  • Losses: {away_losses}")
+    print(f"  • Other (Draw/Tie/No Result): {len(away) - len(away_decisive)}")
+    if len(away_decisive) > 0:
+        print(f"  • Win rate: {away_wins/len(away_decisive)*100:.1f}% (of decisive matches)")
+    
+    # By format
+    print("\n📈 Performance by Format:")
+    for fmt in ['Test', 'ODI', 'T20']:
+        fmt_df = df[df['Match_Format'] == fmt]
+        print(f"\n  {fmt}:")
+        
+        home_fmt = fmt_df[fmt_df['Home_Away'] == 'Home']
+        away_fmt = fmt_df[fmt_df['Home_Away'] == 'Away']
+        
+        print(f"    Home: {len(home_fmt)} matches")
+        print(f"    Away: {len(away_fmt)} matches")
+        
+        # Win rates
+        home_fmt_decisive = home_fmt[home_fmt['Winner'].isin(['Sri Lanka', 'Opponent'])]
+        away_fmt_decisive = away_fmt[away_fmt['Winner'].isin(['Sri Lanka', 'Opponent'])]
+        
+        if len(home_fmt_decisive) > 0:
+            home_fmt_wins = len(home_fmt[home_fmt['Winner'] == 'Sri Lanka'])
+            print(f"    Home win rate: {home_fmt_wins/len(home_fmt_decisive)*100:.1f}%")
+        
+        if len(away_fmt_decisive) > 0:
+            away_fmt_wins = len(away_fmt[away_fmt['Winner'] == 'Sri Lanka'])
+            print(f"    Away win rate: {away_fmt_wins/len(away_fmt_decisive)*100:.1f}%")
+    
+    # Create visualization comparing home vs away win rates
+    plt.figure(figsize=(10, 6))
+    
+    # Prepare data
+    home_win_rate = home_wins/len(home_decisive)*100 if len(home_decisive) > 0 else 0
+    away_win_rate = away_wins/len(away_decisive)*100 if len(away_decisive) > 0 else 0
+    
+    locations = ['Home', 'Away']
+    win_rates = [home_win_rate, away_win_rate]
+    colors = ['#2ecc71', '#e74c3c']
+    
+    bars = plt.bar(locations, win_rates, color=colors, alpha=0.7, edgecolor='black', linewidth=1.5)
+    
+    # Add value labels on bars
+    for bar in bars:
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2., height,
+                f'{height:.1f}%',
+                ha='center', va='bottom', fontsize=12, fontweight='bold')
+    
+    plt.ylabel('Win Rate (%)', fontsize=12, fontweight='bold')
+    plt.title('Sri Lanka Win Rate: Home vs Away', 
+              fontsize=14, fontweight='bold', pad=20)
+    plt.ylim(0, max(win_rates) * 1.2)
+    plt.grid(True, alpha=0.3, axis='y')
+    plt.tight_layout()
+    
+    # Save figure
+    plt.savefig('../eda_outputs/home_away_performance.png', dpi=300, bbox_inches='tight')
+    print("\n✓ Chart saved: eda_outputs/home_away_performance.png")
+    
+    plt.close()
+
+
 def analyze_format_performance(df):
     """Analyze performance across different formats."""
     print("\n" + "=" * 80)
-    print("6. PERFORMANCE BY FORMAT")
+    print("7. PERFORMANCE BY FORMAT")
     print("=" * 80)
     
     for fmt in ['Test', 'ODI', 'T20']:
@@ -294,7 +390,7 @@ def analyze_format_performance(df):
 def generate_summary_statistics(df):
     """Generate overall summary statistics."""
     print("\n" + "=" * 80)
-    print("7. SUMMARY STATISTICS")
+    print("8. SUMMARY STATISTICS")
     print("=" * 80)
     
     print(f"\n📈 Overall Statistics:")
@@ -328,6 +424,7 @@ def main():
     plot_match_outcomes(df)
     plot_top_opponents(df)
     plot_top_grounds(df)
+    analyze_home_away_performance(df)
     analyze_format_performance(df)
     generate_summary_statistics(df)
     

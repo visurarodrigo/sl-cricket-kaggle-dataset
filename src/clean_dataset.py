@@ -23,11 +23,21 @@ logger = logging.getLogger(__name__)
 
 
 # Expected configuration
-EXPECTED_COLUMNS = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year']
+EXPECTED_COLUMNS = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year', 'Home_Away']
 VALID_FORMATS = ['Test', 'ODI', 'T20']
 VALID_WINNERS = ['Sri Lanka', 'Opponent', 'Draw', 'Tie', 'No Result', '']
 INPUT_CSV = 'sri_lanka_international_cricket_matches_2000_present.csv'
 OUTPUT_CSV = 'sri_lanka_international_cricket_matches_2000_present_clean.csv'
+
+# Sri Lankan venue keywords for home/away classification
+SRI_LANKAN_VENUES = [
+    'Colombo', 'Galle', 'Kandy', 'Dambulla', 'Kurunegala',
+    'Sinhalese Sports Club', 'R.Premadasa', 'R Premadasa', 'P Sara Oval',
+    'Pallekele', 'Khettarama', 'Premadasa', 'Asgiriya',
+    'Rangiri Dambulla', 'Galle International Stadium',
+    'Pallekele International Cricket Stadium',
+    'Premadasa International Cricket Stadium (RPS)'
+]
 
 
 class DataValidator:
@@ -60,7 +70,10 @@ class DataValidator:
         Returns:
             True if valid, False otherwise
         """
-        missing = set(EXPECTED_COLUMNS) - set(self.df.columns)
+        # Required columns (excluding Home_Away which we'll add later)
+        required_columns = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year']
+        
+        missing = set(required_columns) - set(self.df.columns)
         extra = set(self.df.columns) - set(EXPECTED_COLUMNS)
         
         if missing:
@@ -70,7 +83,8 @@ class DataValidator:
         
         if extra:
             logger.warning(f"Extra columns found (will be removed): {extra}")
-            self.df = self.df[EXPECTED_COLUMNS]
+            # Keep only required columns for now
+            self.df = self.df[required_columns]
         
         logger.info("✓ Column validation passed")
         return True
@@ -280,6 +294,33 @@ class DataValidator:
         
         logger.info("✓ Margin normalized")
     
+    def add_home_away_classification(self):
+        """Add Home/Away classification based on venue location."""
+        logger.info("Adding Home/Away classification...")
+        
+        def classify_venue(ground):
+            """Classify a venue as Home or Away."""
+            if pd.isna(ground):
+                return 'Away'  # Default to Away if ground is missing
+            
+            ground_str = str(ground)
+            # Check if any Sri Lankan venue keyword is in the ground name
+            for keyword in SRI_LANKAN_VENUES:
+                if keyword.lower() in ground_str.lower():
+                    return 'Home'
+            return 'Away'
+        
+        self.df['Home_Away'] = self.df['Ground'].apply(classify_venue)
+        
+        # Log statistics
+        home_count = (self.df['Home_Away'] == 'Home').sum()
+        away_count = (self.df['Home_Away'] == 'Away').sum()
+        total = len(self.df)
+        
+        logger.info(f"✓ Home/Away classification added:")
+        logger.info(f"  - Home matches: {home_count} ({home_count/total*100:.1f}%)")
+        logger.info(f"  - Away matches: {away_count} ({away_count/total*100:.1f}%)")
+    
     def remove_duplicates(self) -> int:
         """
         Remove duplicate rows based on key columns.
@@ -375,6 +416,7 @@ def clean_dataset(input_file: str = INPUT_CSV, output_file: str = OUTPUT_CSV) ->
     validator.validate_winner()
     validator.validate_opponent()
     validator.normalize_margin()
+    validator.add_home_away_classification()
     
     # Remove duplicates
     logger.info("\n" + "=" * 80)
@@ -417,6 +459,8 @@ def clean_dataset(input_file: str = INPUT_CSV, output_file: str = OUTPUT_CSV) ->
     logger.info(cleaned_df['Match_Format'].value_counts().to_string())
     logger.info(f"\nBreakdown by winner:")
     logger.info(cleaned_df['Winner'].value_counts().to_string())
+    logger.info(f"\nBreakdown by Home/Away:")
+    logger.info(cleaned_df['Home_Away'].value_counts().to_string())
     logger.info(f"\nTop 10 opponents:")
     logger.info(cleaned_df['Opponent'].value_counts().head(10).to_string())
     

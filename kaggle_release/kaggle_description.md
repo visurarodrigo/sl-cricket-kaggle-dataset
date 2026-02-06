@@ -15,6 +15,7 @@ The data has been sourced from **Cricsheet** (the world's most comprehensive cri
 - **Margin**: Victory margin (e.g., "5 wickets", "123 runs", or empty for draws/ties)
 - **Ground**: Stadium or venue where the match was played
 - **Year**: Match year (2000-2026) for easy filtering
+- **Home_Away**: Match location indicator (Home for Sri Lankan venues, Away for international venues)
 
 ## 📅 Time Coverage
 

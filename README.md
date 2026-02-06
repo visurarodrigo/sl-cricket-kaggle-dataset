@@ -23,7 +23,7 @@ This project transforms raw cricket data from [Cricsheet](https://cricsheet.org/
 | **Time Period** | January 2000 – January 30, 2026 |
 | **Match Formats** | Test, ODI (One Day International), T20 International |
 | **Total Matches** | 1,082 matches |
-| **Columns** | 7 (Match_Date, Match_Format, Opponent, Winner, Margin, Ground, Year) |
+| **Columns** | 8 (Match_Date, Match_Format, Opponent, Winner, Margin, Ground, Year, Home_Away) |
 | **Data Quality** | 100% validated and cleaned |
 | **Missing Values** | Margin column only (82 matches with no margin data) |
 | **Coverage** | All Sri Lanka international matches from 2000 onwards |
@@ -39,6 +39,7 @@ This project transforms raw cricket data from [Cricsheet](https://cricsheet.org/
 | `Margin` | String | Victory margin (if applicable) | `5 wickets`, `123 runs` |
 | `Ground` | String | Venue/stadium name | `Galle International Stadium` |
 | `Year` | Integer | Match year | `2020` |
+| `Home_Away` | String | Match location indicator | `Home`, `Away` |
 
 ---
 

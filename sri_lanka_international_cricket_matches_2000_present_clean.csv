@@ -118,7 +118,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 6/25/2007,Test,Bangladesh,Sri Lanka,234 runss,Sinhalese Sports Club Ground,2007,Home
 7/3/2007,Test,Bangladesh,Sri Lanka,90 runss,P Sara Oval,2007,Home
 7/11/2007,Test,Bangladesh,Sri Lanka,193 runss,Asgiriya Stadium,2007,Home
-7/20/2007,ODI,Bangladesh,Sri Lanka,70 runss,P Saravanamuttu Stadium,2007,Away
+7/20/2007,ODI,Bangladesh,Sri Lanka,70 runss,P Saravanamuttu Stadium,2007,Home
 7/23/2007,ODI,Bangladesh,Sri Lanka,5 wicketss,R Premadasa Stadium,2007,Home
 7/25/2007,ODI,Bangladesh,Sri Lanka,39 runss,R Premadasa Stadium,2007,Home
 9/14/2007,T20,Kenya,Sri Lanka,172 runss,New Wanderers Stadium,2007,Away
@@ -147,8 +147,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 4/10/2008,ODI,West Indies,Opponent,1 wicketss,"Queen's Park Oval, Port of Spain",2008,Away
 4/12/2008,ODI,West Indies,Opponent,7 wicketss,"Queen's Park Oval, Port of Spain",2008,Away
 4/15/2008,ODI,West Indies,No Result,,"Beausejour Stadium, Gros Islet",2008,Away
-5/8/2008,ODI,India,Opponent,8 wicketss,Welagedara Stadium,2008,Away
-5/11/2008,ODI,India,Opponent,177 runss,Welagedara Stadium,2008,Away
+5/8/2008,ODI,India,Opponent,8 wicketss,Welagedara Stadium,2008,Home
+5/11/2008,ODI,India,Opponent,177 runss,Welagedara Stadium,2008,Home
 6/25/2008,ODI,Bangladesh,Sri Lanka,131 runss,Gaddafi Stadium,2008,Away
 6/26/2008,ODI,United Arab Emirates,Sri Lanka,142 runss,Gaddafi Stadium,2008,Away
 6/29/2008,ODI,Pakistan,Sri Lanka,64 runss,National Stadium,2008,Away
@@ -157,7 +157,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 7/6/2008,ODI,India,Sri Lanka,100 runss,National Stadium,2008,Away
 7/23/2008,Test,India,Sri Lanka,239 runss,Sinhalese Sports Club Ground,2008,Home
 7/31/2008,Test,India,Opponent,170 runss,Galle International Stadium,2008,Home
-8/8/2008,Test,India,Sri Lanka,8 wicketss,P Saravanamuttu Stadium,2008,Away
+8/8/2008,Test,India,Sri Lanka,8 wicketss,P Saravanamuttu Stadium,2008,Home
 8/18/2008,ODI,India,Sri Lanka,8 wicketss,Rangiri Dambulla International Stadium,2008,Home
 8/20/2008,ODI,India,Opponent,3 wicketss,Rangiri Dambulla International Stadium,2008,Home
 8/24/2008,ODI,India,Opponent,33 runss,R Premadasa Stadium,2008,Home
@@ -258,7 +258,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 1/31/2011,ODI,West Indies,No Result,,Sinhalese Sports Club Ground,2011,Home
 2/3/2011,ODI,West Indies,Sri Lanka,8 wicketss,Sinhalese Sports Club Ground,2011,Home
 2/6/2011,ODI,West Indies,Sri Lanka,26 runss,Sinhalese Sports Club Ground,2011,Home
-2/20/2011,ODI,Canada,Sri Lanka,210 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2011,Away
+2/20/2011,ODI,Canada,Sri Lanka,210 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2011,Home
 2/26/2011,ODI,Pakistan,Opponent,11 runss,R Premadasa Stadium,2011,Home
 3/1/2011,ODI,Kenya,Sri Lanka,9 wicketss,R Premadasa Stadium,2011,Home
 3/5/2011,ODI,Australia,No Result,,R Premadasa Stadium,2011,Home
@@ -279,8 +279,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 8/6/2011,T20,Australia,Sri Lanka,35 runss,Pallekele International Cricket Stadium,2011,Home
 8/8/2011,T20,Australia,Sri Lanka,8 runss,Pallekele International Cricket Stadium,2011,Home
 8/10/2011,ODI,Australia,Opponent,7 wicketss,Pallekele International Cricket Stadium,2011,Home
-8/14/2011,ODI,Australia,Opponent,8 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2011,Away
-8/16/2011,ODI,Australia,Sri Lanka,78 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2011,Away
+8/14/2011,ODI,Australia,Opponent,8 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2011,Home
+8/16/2011,ODI,Australia,Sri Lanka,78 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2011,Home
 8/20/2011,ODI,Australia,Opponent,5 wicketss,R Premadasa Stadium,2011,Home
 8/22/2011,ODI,Australia,Sri Lanka,4 wicketss,R Premadasa Stadium,2011,Home
 8/31/2011,Test,Australia,Opponent,125 runss,Galle International Stadium,2011,Home
@@ -319,8 +319,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 3/20/2012,ODI,Bangladesh,Opponent,5 wicketss,Shere Bangla National Stadium,2012,Away
 3/26/2012,Test,England,Sri Lanka,75 runss,Galle International Stadium,2012,Home
 4/3/2012,Test,England,Opponent,8 wicketss,P Sara Oval,2012,Home
-6/1/2012,T20,Pakistan,Sri Lanka,37 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
-6/3/2012,T20,Pakistan,Opponent,23 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
+6/1/2012,T20,Pakistan,Sri Lanka,37 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
+6/3/2012,T20,Pakistan,Opponent,23 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
 6/7/2012,ODI,Pakistan,Opponent,6 wicketss,Pallekele International Cricket Stadium,2012,Home
 6/9/2012,ODI,Pakistan,Sri Lanka,76 runss,Pallekele International Cricket Stadium,2012,Home
 6/13/2012,ODI,Pakistan,No Result,,R Premadasa Stadium,2012,Home
@@ -329,14 +329,14 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 6/22/2012,Test,Pakistan,Sri Lanka,209 runss,Galle International Stadium,2012,Home
 6/30/2012,Test,Pakistan,Draw,,Sinhalese Sports Club Ground,2012,Home
 7/8/2012,Test,Pakistan,Draw,,Pallekele International Cricket Stadium,2012,Home
-7/21/2012,ODI,India,Opponent,21 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
-7/24/2012,ODI,India,Sri Lanka,9 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
+7/21/2012,ODI,India,Opponent,21 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
+7/24/2012,ODI,India,Sri Lanka,9 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
 7/28/2012,ODI,India,Opponent,5 wicketss,R Premadasa Stadium,2012,Home
 7/31/2012,ODI,India,Opponent,6 wicketss,R Premadasa Stadium,2012,Home
 8/4/2012,ODI,India,Opponent,20 runss,Pallekele International Cricket Stadium,2012,Home
 8/7/2012,T20,India,Opponent,39 runss,Pallekele International Cricket Stadium,2012,Home
-9/18/2012,T20,Zimbabwe,Sri Lanka,82 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
-9/22/2012,T20,South Africa,Opponent,32 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
+9/18/2012,T20,Zimbabwe,Sri Lanka,82 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
+9/22/2012,T20,South Africa,Opponent,32 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
 9/26/2012,T20,South Africa,Opponent,6 wicketss,Galle International Stadium,2012,Home
 9/27/2012,T20,New Zealand,Tie,,Pallekele International Cricket Stadium,2012,Home
 9/28/2012,T20,West Indies,Sri Lanka,5 runss,Galle International Stadium,2012,Home
@@ -350,8 +350,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 10/30/2012,T20,New Zealand,No Result,,Pallekele International Cricket Stadium,2012,Home
 11/4/2012,ODI,New Zealand,Sri Lanka,14 runss,Pallekele International Cricket Stadium,2012,Home
 11/6/2012,ODI,New Zealand,Sri Lanka,7 wicketss,Pallekele International Cricket Stadium,2012,Home
-11/10/2012,ODI,New Zealand,Sri Lanka,7 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
-11/12/2012,ODI,New Zealand,No Result,,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Away
+11/10/2012,ODI,New Zealand,Sri Lanka,7 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
+11/12/2012,ODI,New Zealand,No Result,,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,Home
 11/17/2012,Test,New Zealand,Sri Lanka,10 wicketss,Galle International Stadium,2012,Home
 11/25/2012,Test,New Zealand,Opponent,167 runss,P Sara Oval,2012,Home
 12/14/2012,Test,Australia,Opponent,137 runss,Bellerive Oval,2012,Away
@@ -375,8 +375,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 3/8/2013,Test,Bangladesh,Draw,,Galle International Stadium,2013,Home
 3/8/2013,T20,West Indies,Opponent,7 runss,R Premadasa Stadium,2013,Home
 3/16/2013,Test,Bangladesh,Sri Lanka,7 wicketss,R Premadasa Stadium,2013,Home
-3/23/2013,ODI,Bangladesh,Sri Lanka,8 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Away
-3/25/2013,ODI,Bangladesh,No Result,,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Away
+3/23/2013,ODI,Bangladesh,Sri Lanka,8 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Home
+3/25/2013,ODI,Bangladesh,No Result,,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Home
 3/28/2013,ODI,Bangladesh,Opponent,3 wicketss,Pallekele International Cricket Stadium,2013,Home
 3/31/2013,T20,Bangladesh,Sri Lanka,17 runss,Pallekele International Cricket Stadium,2013,Home
 6/9/2013,ODI,New Zealand,Opponent,1 wicketss,Sophia Gardens,2013,Away
@@ -395,15 +395,15 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 7/31/2013,ODI,South Africa,Sri Lanka,128 runss,R Premadasa Stadium,2013,Home
 7/31/2013,T20,Pakistan,No Result,,YMCA Cricket Club,2013,Away
 8/2/2013,T20,South Africa,Opponent,12 runss,R Premadasa Stadium,2013,Home
-8/4/2013,T20,South Africa,Opponent,22 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Away
-8/6/2013,T20,South Africa,Sri Lanka,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Away
+8/4/2013,T20,South Africa,Opponent,22 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Home
+8/6/2013,T20,South Africa,Sri Lanka,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Home
 10/26/2013,ODI,South Africa,Opponent,67 runss,Senwes Park,2013,Away
 10/28/2013,ODI,South Africa,No Result,,Senwes Park,2013,Away
 10/31/2013,T20,South Africa,Opponent,7 wicketss,Senwes Park,2013,Away
 11/2/2013,T20,South Africa,Sri Lanka,20 runss,Senwes Park,2013,Away
 11/4/2013,T20,South Africa,Opponent,5 wicketss,Senwes Park,2013,Away
-11/10/2013,ODI,New Zealand,No Result,,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Away
-11/12/2013,ODI,New Zealand,Opponent,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Away
+11/10/2013,ODI,New Zealand,No Result,,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Home
+11/12/2013,ODI,New Zealand,Opponent,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,Home
 11/16/2013,ODI,New Zealand,Sri Lanka,36 runss,Rangiri Dambulla International Stadium,2013,Home
 11/21/2013,T20,New Zealand,Sri Lanka,8 wicketss,Pallekele International Cricket Stadium,2013,Home
 12/11/2013,T20,Pakistan,Opponent,3 wicketss,Dubai International Cricket Stadium,2013,Away
@@ -450,19 +450,19 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 6/20/2014,Test,England,Sri Lanka,100 runss,Headingley,2014,Away
 7/6/2014,ODI,South Africa,Opponent,75 runss,R Premadasa Stadium,2014,Home
 7/9/2014,ODI,South Africa,Sri Lanka,87 runss,Pallekele International Cricket Stadium,2014,Home
-7/12/2014,ODI,South Africa,Opponent,82 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Away
+7/12/2014,ODI,South Africa,Opponent,82 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Home
 7/16/2014,Test,South Africa,Opponent,153 runss,Galle International Stadium,2014,Home
 7/24/2014,Test,South Africa,Draw,,Sinhalese Sports Club Ground,2014,Home
 8/6/2014,Test,Pakistan,Sri Lanka,7 wicketss,Galle International Stadium,2014,Home
 8/14/2014,Test,Pakistan,Sri Lanka,105 runss,Sinhalese Sports Club Ground,2014,Home
-8/23/2014,ODI,Pakistan,Opponent,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Away
-8/26/2014,ODI,Pakistan,Sri Lanka,77 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Away
+8/23/2014,ODI,Pakistan,Opponent,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Home
+8/26/2014,ODI,Pakistan,Sri Lanka,77 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Home
 8/30/2014,ODI,Pakistan,Sri Lanka,7 wicketss,Rangiri Dambulla International Stadium,2014,Home
 10/17/2014,ODI,South Africa,No Result,,Sinhalese Sports Club Ground,2014,Home
 10/19/2014,ODI,South Africa,Sri Lanka,4 wicketss,Sinhalese Sports Club Ground,2014,Home
 10/21/2014,ODI,South Africa,Opponent,5 wicketss,Sinhalese Sports Club Ground,2014,Home
-10/23/2014,T20,South Africa,Sri Lanka,7 runss,Colts Cricket Club Ground,2014,Away
-10/25/2014,T20,South Africa,Opponent,7 wicketss,Colts Cricket Club Ground,2014,Away
+10/23/2014,T20,South Africa,Sri Lanka,7 runss,Colts Cricket Club Ground,2014,Home
+10/25/2014,T20,South Africa,Opponent,7 wicketss,Colts Cricket Club Ground,2014,Home
 10/26/2014,T20,South Africa,Opponent,9 wicketss,Mercantile Cricket Association Ground,2014,Away
 11/2/2014,ODI,India,Opponent,169 runss,Barabati Stadium,2014,Away
 11/6/2014,ODI,India,Opponent,6 wicketss,"Sardar Patel Stadium, Motera",2014,Away
@@ -471,7 +471,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 11/16/2014,ODI,India,Opponent,3 wicketss,JSCA International Stadium Complex,2014,Away
 11/26/2014,ODI,England,Sri Lanka,25 runss,R Premadasa Stadium,2014,Home
 11/29/2014,ODI,England,Sri Lanka,8 wicketss,R Premadasa Stadium,2014,Home
-12/3/2014,ODI,England,Opponent,5 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Away
+12/3/2014,ODI,England,Opponent,5 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2014,Home
 12/7/2014,ODI,England,Sri Lanka,6 wicketss,R Premadasa Stadium,2014,Home
 12/10/2014,ODI,England,Opponent,5 wicketss,Pallekele International Cricket Stadium,2014,Home
 12/13/2014,ODI,England,Sri Lanka,90 runss,Pallekele International Cricket Stadium,2014,Home
@@ -505,7 +505,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 7/15/2015,ODI,Pakistan,Sri Lanka,2 wicketss,Pallekele International Cricket Stadium,2015,Home
 7/19/2015,ODI,Pakistan,Opponent,135 runss,R Premadasa Stadium,2015,Home
 7/22/2015,ODI,Pakistan,Opponent,7 wicketss,R Premadasa Stadium,2015,Home
-7/26/2015,ODI,Pakistan,Sri Lanka,165 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2015,Away
+7/26/2015,ODI,Pakistan,Sri Lanka,165 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2015,Home
 7/30/2015,T20,Pakistan,Opponent,29 runss,R Premadasa Stadium,2015,Home
 8/1/2015,T20,Pakistan,Opponent,1 wicketss,R Premadasa Stadium,2015,Home
 8/12/2015,Test,India,Sri Lanka,63 runss,Galle International Stadium,2015,Home
@@ -611,10 +611,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 7/2/2017,ODI,Zimbabwe,Sri Lanka,7 wicketss,Galle International Stadium,2017,Home
 7/2/2017,ODI,England,Opponent,7 wicketss,County Ground,2017,Away
 7/5/2017,ODI,India,Opponent,16 runss,County Ground,2017,Away
-7/6/2017,ODI,Zimbabwe,Sri Lanka,8 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,Away
-7/8/2017,ODI,Zimbabwe,Opponent,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,Away
+7/6/2017,ODI,Zimbabwe,Sri Lanka,8 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,Home
+7/8/2017,ODI,Zimbabwe,Opponent,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,Home
 7/9/2017,ODI,West Indies,Opponent,47 runss,County Ground,2017,Away
-7/10/2017,ODI,Zimbabwe,Opponent,3 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,Away
+7/10/2017,ODI,Zimbabwe,Opponent,3 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,Home
 7/12/2017,ODI,South Africa,Opponent,8 wicketss,County Ground,2017,Away
 7/14/2017,Test,Zimbabwe,Sri Lanka,4 wicketss,"R.Premadasa Stadium, Khettarama",2017,Home
 7/15/2017,ODI,Pakistan,Sri Lanka,15 runss,Grace Road,2017,Away
@@ -683,7 +683,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 9/13/2018,ODI,India,Opponent,7 runss,Galle International Stadium,2018,Home
 9/15/2018,ODI,Bangladesh,Opponent,137 runss,Dubai International Cricket Stadium,2018,Away
 9/16/2018,ODI,India,Sri Lanka,3 wicketss,Chilaw Marians Cricket Club Ground,2018,Away
-9/21/2018,T20,India,No Result,,Colts Cricket Club Ground,2018,Away
+9/21/2018,T20,India,No Result,,Colts Cricket Club Ground,2018,Home
 9/22/2018,T20,India,Opponent,5 wicketss,Colombo Cricket Club Ground,2018,Home
 9/24/2018,T20,India,Opponent,7 wicketss,Colombo Cricket Club Ground,2018,Home
 9/25/2018,T20,India,Opponent,51 runss,Chilaw Marians Cricket Club Ground,2018,Away
@@ -719,8 +719,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 3/10/2019,ODI,South Africa,Opponent,71 runss,Kingsmead,2019,Away
 3/13/2019,ODI,South Africa,Opponent,6 wicketss,St George's Park,2019,Away
 3/16/2019,ODI,South Africa,Opponent,41 runss,Newlands,2019,Away
-3/16/2019,ODI,England,Opponent,154 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2019,Away
-3/18/2019,ODI,England,Opponent,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2019,Away
+3/16/2019,ODI,England,Opponent,154 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2019,Home
+3/18/2019,ODI,England,Opponent,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2019,Home
 3/19/2019,T20,South Africa,Tie,,Newlands,2019,Away
 3/21/2019,ODI,England,Opponent,8 wicketss,FTZ Sports Complex (BOI),2019,Away
 3/22/2019,T20,South Africa,Opponent,16 runss,SuperSport Park,2019,Away
@@ -766,7 +766,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 2/22/2020,ODI,West Indies,Sri Lanka,1 wicketss,Sinhalese Sports Club Ground,2020,Home
 2/22/2020,T20,New Zealand,Opponent,7 wicketss,W.A.C.A. Ground,2020,Away
 2/24/2020,T20,Australia,Opponent,5 wicketss,W.A.C.A. Ground,2020,Away
-2/26/2020,ODI,West Indies,Sri Lanka,161 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2020,Away
+2/26/2020,ODI,West Indies,Sri Lanka,161 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2020,Home
 2/29/2020,T20,India,Opponent,7 wicketss,Junction Oval,2020,Away
 3/1/2020,ODI,West Indies,Sri Lanka,6 runss,Pallekele International Cricket Stadium,2020,Home
 3/2/2020,T20,Bangladesh,Sri Lanka,9 wicketss,Junction Oval,2020,Away
@@ -972,13 +972,13 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Home_Away
 5/7/2024,T20,Scotland,Sri Lanka,68 runss,"Zayed Cricket Stadium, Abu Dhabi",2024,Away
 6/3/2024,T20,South Africa,Opponent,6 wicketss,"Nassau County International Cricket Stadium, New York",2024,Away
 6/7/2024,T20,Bangladesh,Opponent,2 wicketss,"Grand Prairie Stadium, Dallas",2024,Away
-6/15/2024,ODI,West Indies,Sri Lanka,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Away
+6/15/2024,ODI,West Indies,Sri Lanka,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Home
 6/16/2024,T20,Netherlands,Sri Lanka,83 runss,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2024,Away
-6/18/2024,ODI,West Indies,Sri Lanka,5 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Away
-6/21/2024,ODI,West Indies,Sri Lanka,160 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Away
-6/24/2024,T20,West Indies,Sri Lanka,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Away
-6/26/2024,T20,West Indies,Opponent,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Away
-6/28/2024,T20,West Indies,Opponent,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Away
+6/18/2024,ODI,West Indies,Sri Lanka,5 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Home
+6/21/2024,ODI,West Indies,Sri Lanka,160 runss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Home
+6/24/2024,T20,West Indies,Sri Lanka,4 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Home
+6/26/2024,T20,West Indies,Opponent,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Home
+6/28/2024,T20,West Indies,Opponent,6 wicketss,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2024,Home
 7/20/2024,T20,Bangladesh,Sri Lanka,7 wicketss,Rangiri Dambulla International Stadium,2024,Home
 7/22/2024,T20,Malaysia,Sri Lanka,144 runss,Rangiri Dambulla International Stadium,2024,Home
 7/24/2024,T20,Thailand,Sri Lanka,10 wicketss,Rangiri Dambulla International Stadium,2024,Home

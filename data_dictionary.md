@@ -10,13 +10,13 @@ This document provides detailed descriptions of each column in the dataset.
 
 **Filename**: `sri_lanka_international_cricket_matches_2000_present_clean.csv`
 
-**Description**: A comprehensive dataset of Sri Lanka's international cricket matches across all formats (Test, ODI, T20) from January 2000 to January 30, 2026. The dataset includes match outcomes, venues, opponents, and victory margins.
+**Description**: A comprehensive dataset of Sri Lanka's international cricket matches across all formats (Test, ODI, T20) from January 2000 to the latest Cricsheet refresh. The dataset includes match outcomes, venues, opponents, gender, and key match metadata.
 
 **Source**: [Cricsheet](https://cricsheet.org/) - Official cricket match data in JSON format
 
 **License**: Creative Commons Attribution 4.0 International License (CC BY 4.0)
 
-**Last Updated**: February 2026
+**Last Updated**: May 2026
 
 ---
 
@@ -31,6 +31,11 @@ This document provides detailed descriptions of each column in the dataset.
 | **Margin** | String | The victory margin | `5 wickets`, `123 runs`, `` | Format: "X runs" for batting first wins, "X wickets" for chasing wins. Empty for draws, ties, or no results. Singular form used for "1 run" or "1 wicket". |
 | **Ground** | String | The venue/stadium where the match was played | `Galle International Stadium`, `R Premadasa Stadium` | Full venue names as provided by Cricsheet. |
 | **Year** | Integer | The year when the match was played | `2020`, `2015`, `2003` | Extracted from Match_Date for easy filtering and analysis. Range: 2000 to 2026. |
+| **Gender** | Categorical | Match gender classification | `male`, `female` | Pulled directly from Cricsheet `info.gender`. |
+| **Toss_Winner** | String | The team that won the toss | `Sri Lanka`, `India`, `Australia` | Pulled directly from Cricsheet `info.toss.winner`. |
+| **Toss_Decision** | Categorical | The decision made after winning the toss | `bat`, `field` | Pulled directly from Cricsheet `info.toss.decision`. |
+| **Player_of_Match** | String | The player awarded player of the match | `Kumar Sangakkara`, `MS Wade` | Uses the first value from Cricsheet `info.player_of_match` when available. |
+| **Event_Name** | String | The tournament, series, or event name | `Asia Cup`, `Pakistan in Australia ODI Series` | Pulled directly from Cricsheet `info.event.name`. |
 | **Home_Away** | Categorical | Indicates whether the match was played at home or away | `Home`, `Away` | **Home**: Match played at a Sri Lankan venue; **Away**: Match played at a foreign venue. Classified based on venue location. |
 
 ---

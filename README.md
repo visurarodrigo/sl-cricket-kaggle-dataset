@@ -2,10 +2,10 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Dataset](https://img.shields.io/badge/matches-1082-orange.svg)](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset)
+[![Dataset](https://img.shields.io/badge/matches-1088-orange.svg)](https://github.com/visurarodrigo/sl-cricket-kaggle-dataset)
 [![Kaggle](https://img.shields.io/badge/kaggle-dataset-20BEFF.svg)](https://www.kaggle.com/datasets/visurarodrigo/sri-lanka-international-cricket-matches-2000pre)
 
-> **A production-ready dataset of 1,082+ Sri Lankan international cricket matches with automated ETL pipeline, comprehensive validation, and exploratory analysis.**
+> **A production-ready dataset of 1,088+ Sri Lankan international cricket matches with automated ETL pipeline, comprehensive validation, and exploratory analysis.**
 
 🎯 **[View on Kaggle](https://www.kaggle.com/datasets/visurarodrigo/sri-lanka-international-cricket-matches-2000pre)** | 📖 **[Data Dictionary](data_dictionary.md)**
 
@@ -16,9 +16,9 @@
 | Feature | Details |
 |---------|---------|  
 | **Time Coverage** | January 2000 – January 30, 2026 (26 years) |
-| **Total Matches** | 1,082 validated matches |
+| **Total Matches** | 1,088 validated matches |
 | **Formats** | Test (174), ODI (572), T20 (336) |
-| **Columns** | 8 fields including Home/Away classification |
+| **Columns** | 13 fields including Home/Away classification |
 | **Data Quality** | 100% validated, zero duplicates |
 | **Source** | [Cricsheet](https://cricsheet.org/) (CC BY 4.0) |
 
@@ -33,6 +33,11 @@
 | `Margin` | String | Victory margin (e.g., "5 wickets", "50 runs") |
 | `Ground` | String | Venue/stadium name |
 | `Year` | Integer | Match year (2002-2026) |
+| `Gender` | Categorical | Match gender (`male`, `female`) |
+| `Toss_Winner` | String | Team that won the toss |
+| `Toss_Decision` | Categorical | Toss decision (`bat`, `field`) |
+| `Player_of_Match` | String | Player of the match |
+| `Event_Name` | String | Event / tournament name |
 | `Home_Away` | Categorical | Home (Sri Lankan venues) or Away |
 
 ## 🚀 Quick Start

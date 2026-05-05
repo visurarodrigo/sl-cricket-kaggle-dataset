@@ -27,7 +27,12 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Opponent', 'Draw'],
             'Margin': ['5 wickets', '50 runs', ''],
             'Ground': ['Galle Stadium', 'MCG', 'Lords'],
-            'Year': [2020, 2021, 2019]
+            'Year': [2020, 2021, 2019],
+            'Gender': ['male', 'male', 'female'],
+            'Toss_Winner': ['', '', ''],
+            'Toss_Decision': ['', '', ''],
+            'Player_of_Match': ['', '', ''],
+            'Event_Name': ['', '', '']
         })
     
     def test_validate_columns_success(self, sample_df):
@@ -62,7 +67,11 @@ class TestDataValidator:
             'Winner': ['  Sri Lanka'],
             'Margin': ['5 wickets'],
             'Ground': ['  Galle  '],
-            'Year': [2020]
+            'Year': [2020],
+            'Toss_Winner': ['Sri Lanka'],
+            'Toss_Decision': ['bat'],
+            'Player_of_Match': ['Kumar Sangakkara'],
+            'Event_Name': ['Asia Cup']
         })
         validator = DataValidator(df)
         validator.trim_whitespace()
@@ -88,7 +97,11 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Sri Lanka', 'Sri Lanka'],
             'Margin': ['5 wickets', '5 wickets', '5 wickets'],
             'Ground': ['Galle', 'Galle', 'Galle'],
-            'Year': [2020, 2020, 2020]
+            'Year': [2020, 2020, 2020],
+            'Toss_Winner': ['', '', ''],
+            'Toss_Decision': ['', '', ''],
+            'Player_of_Match': ['', '', ''],
+            'Event_Name': ['', '', '']
         })
         validator = DataValidator(df)
         validator.validate_match_format()
@@ -106,7 +119,11 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Sri Lanka'],
             'Margin': ['5 wickets', '5 wickets'],
             'Ground': ['Galle', 'Galle'],
-            'Year': [2020, 2020]
+            'Year': [2020, 2020],
+            'Toss_Winner': ['', ''],
+            'Toss_Decision': ['', ''],
+            'Player_of_Match': ['', ''],
+            'Event_Name': ['', '']
         })
         validator = DataValidator(df)
         invalid_count = validator.validate_match_format()
@@ -124,7 +141,11 @@ class TestDataValidator:
             'Winner': ['sri lanka', 'DRAW', 'tied', 'no result'],
             'Margin': ['', '', '', ''],
             'Ground': ['Galle', 'Galle', 'Galle', 'Galle'],
-            'Year': [2020, 2020, 2020, 2020]
+            'Year': [2020, 2020, 2020, 2020],
+            'Toss_Winner': ['', '', '', ''],
+            'Toss_Decision': ['', '', '', ''],
+            'Player_of_Match': ['', '', '', ''],
+            'Event_Name': ['', '', '', '']
         })
         validator = DataValidator(df)
         validator.validate_winner()
@@ -149,7 +170,11 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Sri Lanka', 'Sri Lanka'],
             'Margin': ['5 wickets', '5 wickets', '5 wickets'],
             'Ground': ['Galle', 'Galle', 'Galle'],
-            'Year': [2020, 2020, 2020]
+            'Year': [2020, 2020, 2020],
+            'Toss_Winner': ['', '', ''],
+            'Toss_Decision': ['', '', ''],
+            'Player_of_Match': ['', '', ''],
+            'Event_Name': ['', '', '']
         })
         validator = DataValidator(df)
         invalid_count = validator.validate_date_format()
@@ -182,7 +207,11 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Opponent'],
             'Margin': ['5 wickets', '5 wickets'],
             'Ground': ['Galle', 'Galle'],
-            'Year': [2020, 2020]
+            'Year': [2020, 2020],
+            'Toss_Winner': ['', ''],
+            'Toss_Decision': ['', ''],
+            'Player_of_Match': ['', ''],
+            'Event_Name': ['', '']
         })
         validator = DataValidator(df)
         invalid_count = validator.validate_opponent()
@@ -200,7 +229,11 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Opponent', 'Sri Lanka'],
             'Margin': ['5 wicket', '100  run', '1 runs'],
             'Ground': ['Galle', 'Galle', 'Galle'],
-            'Year': [2020, 2020, 2020]
+            'Year': [2020, 2020, 2020],
+            'Toss_Winner': ['', '', ''],
+            'Toss_Decision': ['', '', ''],
+            'Player_of_Match': ['', '', ''],
+            'Event_Name': ['', '', '']
         })
         validator = DataValidator(df)
         validator.normalize_margin()
@@ -218,7 +251,11 @@ class TestDataValidator:
             'Winner': ['Sri Lanka', 'Sri Lanka', 'Opponent'],
             'Margin': ['5 wickets', '5 wickets', '50 runs'],
             'Ground': ['Galle', 'Galle', 'Colombo'],
-            'Year': [2020, 2020, 2020]
+            'Year': [2020, 2020, 2020],
+            'Toss_Winner': ['', '', ''],
+            'Toss_Decision': ['', '', ''],
+            'Player_of_Match': ['', '', ''],
+            'Event_Name': ['', '', '']
         })
         validator = DataValidator(df)
         duplicates = validator.remove_duplicates()
@@ -246,7 +283,12 @@ class TestDataValidator:
             'Winner': ['sri lanka', 'draw', 'opponent', 'Sri Lanka'],
             'Margin': ['5 wicket', '', '100 run', '1 runs'],
             'Ground': ['Galle', 'Galle', 'MCG', 'Lords'],
-            'Year': [2020, 2020, 2020, 2020]
+            'Year': [2020, 2020, 2020, 2020],
+            'Gender': ['male', 'male', 'male', 'male'],
+            'Toss_Winner': ['', '', '', ''],
+            'Toss_Decision': ['', '', '', ''],
+            'Player_of_Match': ['', '', '', ''],
+            'Event_Name': ['', '', '', '']
         })
         
         validator = DataValidator(df)

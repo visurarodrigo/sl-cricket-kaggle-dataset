@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 
 # Expected configuration
-EXPECTED_COLUMNS = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year', 'Home_Away']
+EXPECTED_COLUMNS = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year', 'Gender', 'Toss_Winner', 'Toss_Decision', 'Player_of_Match', 'Event_Name', 'Home_Away']
 VALID_FORMATS = ['Test', 'ODI', 'T20']
 VALID_WINNERS = ['Sri Lanka', 'Opponent', 'Draw', 'Tie', 'No Result', '']
 INPUT_CSV = 'sri_lanka_international_cricket_matches_2000_present.csv'
@@ -71,7 +71,7 @@ class DataValidator:
             True if valid, False otherwise
         """
         # Required columns (excluding Home_Away which we'll add later)
-        required_columns = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year']
+        required_columns = ['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year', 'Gender', 'Toss_Winner', 'Toss_Decision', 'Player_of_Match', 'Event_Name']
         
         missing = set(required_columns) - set(self.df.columns)
         extra = set(self.df.columns) - set(EXPECTED_COLUMNS)

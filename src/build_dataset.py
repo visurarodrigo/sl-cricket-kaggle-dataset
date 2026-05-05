@@ -280,8 +280,18 @@ def parse_match_json(json_path: Path, match_format: str) -> Optional[Dict]:
         except (ValueError, TypeError):
             return None
         
-        # Get venue
+        # Get venue and metadata
         ground = info.get('venue', '')
+        gender = info.get('gender', '')
+
+        toss = info.get('toss', {})
+        event = info.get('event', {})
+        player_of_match = info.get('player_of_match', [])
+
+        toss_winner = toss.get('winner', '')
+        toss_decision = toss.get('decision', '')
+        event_name = event.get('name', '')
+        player_of_match_name = player_of_match[0] if player_of_match else ''
         
         # Determine winner
         winner = determine_winner(match_data, sri_lanka_team, opponent_team)
@@ -296,7 +306,12 @@ def parse_match_json(json_path: Path, match_format: str) -> Optional[Dict]:
             'Winner': winner,
             'Margin': margin,
             'Ground': ground,
-            'Year': year
+            'Year': year,
+            'Gender': gender,
+            'Toss_Winner': toss_winner,
+            'Toss_Decision': toss_decision,
+            'Player_of_Match': player_of_match_name,
+            'Event_Name': event_name
         }
         
     except json.JSONDecodeError as e:
@@ -391,7 +406,7 @@ def build_dataset():
     df = df.sort_values('Match_Date')
     
     # Ensure column order
-    df = df[['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year']]
+    df = df[['Match_Date', 'Match_Format', 'Opponent', 'Winner', 'Margin', 'Ground', 'Year', 'Gender', 'Toss_Winner', 'Toss_Decision', 'Player_of_Match', 'Event_Name']]
     
     # Save CSV
     df.to_csv(OUTPUT_CSV, index=False)

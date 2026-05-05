@@ -254,6 +254,15 @@ class TestParseMatchJson:
                 'teams': ['Sri Lanka', 'India'],
                 'dates': ['2020-01-15'],
                 'venue': 'Galle International Stadium',
+                'toss': {
+                    'winner': 'Sri Lanka',
+                    'decision': 'bat'
+                },
+                'gender': 'male',
+                'player_of_match': ['Kumar Sangakkara'],
+                'event': {
+                    'name': 'Asia Cup'
+                },
                 'outcome': {
                     'winner': 'Sri Lanka',
                     'by': {
@@ -277,7 +286,12 @@ class TestParseMatchJson:
         assert result['Winner'] == 'Sri Lanka'
         assert result['Margin'] == '5 wickets'
         assert result['Ground'] == 'Galle International Stadium'
+        assert result['Gender'] == 'male'
         assert result['Year'] == 2020
+        assert result['Toss_Winner'] == 'Sri Lanka'
+        assert result['Toss_Decision'] == 'bat'
+        assert result['Player_of_Match'] == 'Kumar Sangakkara'
+        assert result['Event_Name'] == 'Asia Cup'
     
     def test_parse_non_sri_lanka_match(self, tmp_path):
         """Test that non-Sri Lanka matches are filtered out."""

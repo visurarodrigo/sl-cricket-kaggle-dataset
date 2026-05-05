@@ -1,8 +1,9 @@
 """
-Exploratory Data Analysis: Sri Lanka International Cricket Dataset (2000-2026)
+Exploratory Data Analysis: Sri Lanka International Cricket Dataset (2000-Present)
 
 This script performs comprehensive EDA on Sri Lanka's international cricket matches.
-Includes visualizations and insights across all formats (Test, ODI, T20).
+It includes visualizations and insights across all formats (Test, ODI, T20) and
+adapts chart titles to the current dataset year range.
 """
 
 import pandas as pd
@@ -75,8 +76,12 @@ def plot_matches_per_year(df):
     
     plt.xlabel('Year', fontsize=12, fontweight='bold')
     plt.ylabel('Number of Matches', fontsize=12, fontweight='bold')
-    plt.title('Sri Lanka International Cricket Matches Per Year (2002-2026)', 
-              fontsize=14, fontweight='bold', pad=20)
+    plt.title(
+        f"Sri Lanka International Cricket Matches Per Year ({matches_per_year.index.min()}-{matches_per_year.index.max()})",
+        fontsize=14,
+        fontweight='bold',
+        pad=20,
+    )
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     

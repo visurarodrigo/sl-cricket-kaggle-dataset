@@ -193,21 +193,32 @@ class DataValidator:
             Number of invalid rows found
         """
         logger.info("Validating Match_Date format...")
-        
-        date_pattern = re.compile(r'^\d{4}-\d{2}-\d{2}$')
-        
+        # Try to parse dates robustly using pandas. Accept common date formats
+        # and coerce invalid parses to NaT, then drop them.
         self.df['Match_Date'] = self.df['Match_Date'].astype(str).str.strip()
-        valid_mask = self.df['Match_Date'].str.match(date_pattern)
-        
-        invalid_count = (~valid_mask).sum()
-        
+
+        # Attempt parsing with pandas. Let pandas infer formats; also try dayfirst=True
+        parsed = pd.to_datetime(self.df['Match_Date'], errors='coerce', infer_datetime_format=True)
+        # If many failed, try alternative with dayfirst=True
+        if parsed.isna().sum() > 0:
+            parsed_alt = pd.to_datetime(self.df['Match_Date'], errors='coerce', dayfirst=True, infer_datetime_format=True)
+            # Use parsed_alt where parsed is NaT
+            parsed = parsed.fillna(parsed_alt)
+
+        invalid_count = parsed.isna().sum()
+
         if invalid_count > 0:
-            logger.warning(f"Found {invalid_count} rows with invalid date format")
+            logger.warning(f"Found {invalid_count} rows with invalid/unparseable dates")
             self.issues['invalid_date'] = invalid_count
-            self.df = self.df[valid_mask]
+            self.df = self.df[~parsed.isna()].copy()
+            # replace Match_Date with ISO formatted dates
+            self.df['Match_Date'] = pd.to_datetime(self.df['Match_Date'], infer_datetime_format=True).dt.strftime('%Y-%m-%d')
             self.issues['rows_removed'] += invalid_count
-        
-        logger.info(f"✓ Match_Date format validated ({invalid_count} invalid rows removed)")
+        else:
+            # All parsed successfully; normalize to YYYY-MM-DD
+            self.df['Match_Date'] = parsed.dt.strftime('%Y-%m-%d')
+
+        logger.info(f"✓ Match_Date validated ({invalid_count} invalid rows removed)")
         return invalid_count
     
     def validate_year_consistency(self) -> int:
@@ -316,10 +327,13 @@ class DataValidator:
         home_count = (self.df['Home_Away'] == 'Home').sum()
         away_count = (self.df['Home_Away'] == 'Away').sum()
         total = len(self.df)
-        
         logger.info(f"✓ Home/Away classification added:")
-        logger.info(f"  - Home matches: {home_count} ({home_count/total*100:.1f}%)")
-        logger.info(f"  - Away matches: {away_count} ({away_count/total*100:.1f}%)")
+        if total > 0:
+            logger.info(f"  - Home matches: {home_count} ({home_count/total*100:.1f}%)")
+            logger.info(f"  - Away matches: {away_count} ({away_count/total*100:.1f}%)")
+        else:
+            logger.info(f"  - Home matches: {home_count}")
+            logger.info(f"  - Away matches: {away_count}")
     
     def remove_duplicates(self) -> int:
         """

@@ -5,15 +5,15 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2003-01-15,ODI,Australia,Opponent,4 wickets,"Brisbane Cricket Ground, Woolloongabba, Brisbane",2003,male,Sri Lanka,bat,MG Bevan,VB Series,Away
 2003-01-17,ODI,England,Opponent,19 runs,Adelaide Oval,2003,male,England,bat,AR Caddick,VB Series,Away
 2003-01-21,ODI,Australia,Opponent,9 wickets,Melbourne Cricket Ground,2003,male,Sri Lanka,bat,RT Ponting,VB Series,Away
-2003-02-10,ODI,New Zealand,Sri Lanka,47 runs,"Goodyear Park, Bloemfontein",2003,male,New Zealand,field,ST Jayasuriya,ICC World Cup,Away
-2003-02-19,ODI,Canada,Sri Lanka,9 wickets,"Boland Bank Park, Paarl",2003,male,Sri Lanka,field,RAP Nissanka,ICC World Cup,Away
-2003-02-24,ODI,Kenya,Opponent,53 runs,"Gymkhana Club Ground, Nairobi",2003,male,Sri Lanka,field,CO Obuya,ICC World Cup,Away
-2003-02-28,ODI,West Indies,Sri Lanka,6 runs,"Newlands, Cape Town",2003,male,Sri Lanka,bat,WPUJC Vaas,ICC World Cup,Away
-2003-03-03,ODI,South Africa,Tie,,"Kingsmead, Durban",2003,male,Sri Lanka,bat,MS Atapattu,ICC World Cup,Away
-2003-03-07,ODI,Australia,Opponent,96 runs,"SuperSport Park, Centurion",2003,male,Australia,bat,RT Ponting,ICC World Cup,Away
-2003-03-10,ODI,India,Opponent,183 runs,"New Wanderers Stadium, Johannesburg",2003,male,Sri Lanka,field,J Srinath,ICC World Cup,Away
-2003-03-15,ODI,Zimbabwe,Sri Lanka,74 runs,"Buffalo Park, East London",2003,male,Sri Lanka,bat,MS Atapattu,ICC World Cup,Away
-2003-03-18,ODI,Australia,Opponent,48 runs,"St George's Park, Port Elizabeth",2003,male,Australia,bat,A Symonds,ICC World Cup,Away
+2003-02-10,ODI,New Zealand,Sri Lanka,47 runs,"Goodyear Park, Bloemfontein",2003,male,New Zealand,field,ST Jayasuriya,ICC Cricket World Cup,Away
+2003-02-19,ODI,Canada,Sri Lanka,9 wickets,"Boland Bank Park, Paarl",2003,male,Sri Lanka,field,RAP Nissanka,ICC Cricket World Cup,Away
+2003-02-24,ODI,Kenya,Opponent,53 runs,"Gymkhana Club Ground, Nairobi",2003,male,Sri Lanka,field,CO Obuya,ICC Cricket World Cup,Away
+2003-02-28,ODI,West Indies,Sri Lanka,6 runs,"Newlands, Cape Town",2003,male,Sri Lanka,bat,WPUJC Vaas,ICC Cricket World Cup,Away
+2003-03-03,ODI,South Africa,Tie,,"Kingsmead, Durban",2003,male,Sri Lanka,bat,MS Atapattu,ICC Cricket World Cup,Away
+2003-03-07,ODI,Australia,Opponent,96 runs,"SuperSport Park, Centurion",2003,male,Australia,bat,RT Ponting,ICC Cricket World Cup,Away
+2003-03-10,ODI,India,Opponent,183 runs,"New Wanderers Stadium, Johannesburg",2003,male,Sri Lanka,field,J Srinath,ICC Cricket World Cup,Away
+2003-03-15,ODI,Zimbabwe,Sri Lanka,74 runs,"Buffalo Park, East London",2003,male,Sri Lanka,bat,MS Atapattu,ICC Cricket World Cup,Away
+2003-03-18,ODI,Australia,Opponent,48 runs,"St George's Park, Port Elizabeth",2003,male,Australia,bat,A Symonds,ICC Cricket World Cup,Away
 2003-04-04,ODI,Pakistan,Opponent,7 wickets,Sharjah Cricket Association Stadium,2003,male,Sri Lanka,bat,KC Sangakkara,Cherry Blossom Sharjah Cup,Away
 2003-04-06,ODI,Kenya,Sri Lanka,129 runs,Sharjah Cricket Association Stadium,2003,male,Sri Lanka,bat,KC Sangakkara,Cherry Blossom Sharjah Cup,Away
 2003-04-07,ODI,Zimbabwe,Opponent,4 wickets,Sharjah Cricket Association Stadium,2003,male,Sri Lanka,bat,GW Flower,Cherry Blossom Sharjah Cup,Away
@@ -29,10 +29,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2004-03-08,Test,Australia,Opponent,197 runs,Galle International Stadium,2004,male,Australia,bat,ML Hayden,Australia tour of Sri Lanka,Home
 2004-04-20,ODI,Zimbabwe,Sri Lanka,12 runs,Queens Sports Club,2004,male,Sri Lanka,field,T Taibu,Sri Lanka tour of Zimbabwe,Away
 2004-04-27,ODI,Zimbabwe,Sri Lanka,72 runs,Harare Sports Club,2004,male,Zimbabwe,field,UDU Chandana,Sri Lanka tour of Zimbabwe,Away
-2004-07-21,ODI,Pakistan,Sri Lanka,7 wickets,R.Premadasa Stadium,2004,male,Pakistan,bat,DNT Zoysa,Asia Cup,Home
-2004-07-23,ODI,Bangladesh,Sri Lanka,10 wickets,R.Premadasa Stadium,2004,male,Bangladesh,bat,ST Jayasuriya,Asia Cup,Home
-2004-07-27,ODI,India,Opponent,4 runs,R.Premadasa Stadium,2004,male,India,bat,V Sehwag,Asia Cup,Home
-2004-08-01,ODI,India,Sri Lanka,25 runs,R.Premadasa Stadium,2004,male,Sri Lanka,bat,MS Atapattu,Asia Cup,Home
+2004-07-21,ODI,Pakistan,Sri Lanka,7 wickets,R.Premadasa Stadium,2004,male,Pakistan,bat,DNT Zoysa,Mens ODI Asia Cup,Home
+2004-07-23,ODI,Bangladesh,Sri Lanka,10 wickets,R.Premadasa Stadium,2004,male,Bangladesh,bat,ST Jayasuriya,Mens ODI Asia Cup,Home
+2004-07-27,ODI,India,Opponent,4 runs,R.Premadasa Stadium,2004,male,India,bat,V Sehwag,Mens ODI Asia Cup,Home
+2004-08-01,ODI,India,Sri Lanka,25 runs,R.Premadasa Stadium,2004,male,Sri Lanka,bat,MS Atapattu,Mens ODI Asia Cup,Home
 2004-08-28,ODI,South Africa,Sri Lanka,7 wickets,Rangiri Dambulla International Stadium,2004,male,Sri Lanka,field,KC Sangakkara,South Africa tour of Sri Lanka,Home
 2004-08-31,ODI,South Africa,Sri Lanka,49 runs,Sinhalese Sports Club,2004,male,South Africa,field,UDU Chandana,South Africa tour of Sri Lanka,Home
 2004-09-14,ODI,Zimbabwe,Sri Lanka,4 wickets,Kennington Oval,2004,male,Sri Lanka,field,E Chigumbura,ICC Champions Trophy,Away
@@ -78,7 +78,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2006-05-11,Test,England,Draw,,Lord's,2006,male,England,bat,DPMD Jayawardene,Sri Lanka tour of England,Away
 2006-05-25,Test,England,Opponent,6 wickets,Edgbaston,2006,male,Sri Lanka,bat,KP Pietersen,Sri Lanka tour of England,Away
 2006-06-02,Test,England,Sri Lanka,134 runs,Trent Bridge,2006,male,Sri Lanka,bat,M Muralitharan,Sri Lanka tour of England,Away
-2006-06-15,T20,England,Sri Lanka,2 runs,The Rose Bowl,2006,male,Sri Lanka,bat,ST Jayasuriya,nan,Away
+2006-06-15,T20,England,Sri Lanka,2 runs,The Rose Bowl,2006,male,Sri Lanka,bat,ST Jayasuriya,Sri Lanka tour of England,Away
 2006-06-17,ODI,England,Sri Lanka,20 runs,Lord's,2006,male,England,field,WU Tharanga,NatWest Series,Away
 2006-06-20,ODI,England,Sri Lanka,46 runs,Kennington Oval,2006,male,Sri Lanka,bat,ST Jayasuriya,NatWest Series,Away
 2006-06-24,ODI,England,Sri Lanka,8 wickets,Riverside Ground,2006,male,England,bat,DPMD Jayawardene,NatWest Series,Away
@@ -104,28 +104,28 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2007-02-11,ODI,India,Sri Lanka,5 runs,Madhavrao Scindia Cricket Ground,2007,male,India,field,KC Sangakkara,Sri Lanka in India ODI Series,Away
 2007-02-14,ODI,India,Opponent,5 wickets,"Nehru Stadium, Fatorda",2007,male,Sri Lanka,bat,Z Khan,Sri Lanka in India ODI Series,Away
 2007-02-17,ODI,India,Opponent,7 wickets,Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium,2007,male,India,field,LPC Silva,Sri Lanka in India ODI Series,Away
-2007-03-15,ODI,Bermuda,Sri Lanka,243 runs,"Queen's Park Oval, Port of Spain",2007,male,Sri Lanka,bat,DPMD Jayawardene,ICC World Cup,Away
-2007-03-21,ODI,Bangladesh,Sri Lanka,198 runs,"Queen's Park Oval, Port of Spain",2007,male,Bangladesh,field,ST Jayasuriya,ICC World Cup,Away
-2007-03-23,ODI,India,Sri Lanka,69 runs,"Queen's Park Oval, Port of Spain",2007,male,India,field,M Muralitharan,ICC World Cup,Away
-2007-03-28,ODI,South Africa,Opponent,1 wicket,Providence Stadium,2007,male,Sri Lanka,bat,CK Langeveldt,ICC World Cup,Away
-2007-04-01,ODI,West Indies,Sri Lanka,113 runs,Providence Stadium,2007,male,West Indies,field,ST Jayasuriya,ICC World Cup,Away
-2007-04-04,ODI,England,Sri Lanka,2 runs,"Sir Vivian Richards Stadium, North Sound",2007,male,England,field,RS Bopara,ICC World Cup,Away
-2007-04-12,ODI,New Zealand,Sri Lanka,6 wickets,"National Cricket Stadium, St George's",2007,male,New Zealand,bat,WPUJC Vaas,ICC World Cup,Away
-2007-04-16,ODI,Australia,Opponent,7 wickets,"National Cricket Stadium, St George's",2007,male,Sri Lanka,bat,NW Bracken,ICC World Cup,Away
-2007-04-18,ODI,Ireland,Sri Lanka,8 wickets,"National Cricket Stadium, St George's",2007,male,Sri Lanka,field,MF Maharoof,ICC World Cup,Away
-2007-04-24,ODI,New Zealand,Sri Lanka,81 runs,"Sabina Park, Kingston",2007,male,Sri Lanka,bat,DPMD Jayawardene,ICC World Cup,Away
-2007-04-28,ODI,Australia,Opponent,53 runs,"Kensington Oval, Bridgetown",2007,male,Australia,bat,AC Gilchrist,ICC World Cup,Away
+2007-03-15,ODI,Bermuda,Sri Lanka,243 runs,"Queen's Park Oval, Port of Spain",2007,male,Sri Lanka,bat,DPMD Jayawardene,ICC Cricket World Cup,Away
+2007-03-21,ODI,Bangladesh,Sri Lanka,198 runs,"Queen's Park Oval, Port of Spain",2007,male,Bangladesh,field,ST Jayasuriya,ICC Cricket World Cup,Away
+2007-03-23,ODI,India,Sri Lanka,69 runs,"Queen's Park Oval, Port of Spain",2007,male,India,field,M Muralitharan,ICC Cricket World Cup,Away
+2007-03-28,ODI,South Africa,Opponent,1 wicket,Providence Stadium,2007,male,Sri Lanka,bat,CK Langeveldt,ICC Cricket World Cup,Away
+2007-04-01,ODI,West Indies,Sri Lanka,113 runs,Providence Stadium,2007,male,West Indies,field,ST Jayasuriya,ICC Cricket World Cup,Away
+2007-04-04,ODI,England,Sri Lanka,2 runs,"Sir Vivian Richards Stadium, North Sound",2007,male,England,field,RS Bopara,ICC Cricket World Cup,Away
+2007-04-12,ODI,New Zealand,Sri Lanka,6 wickets,"National Cricket Stadium, St George's",2007,male,New Zealand,bat,WPUJC Vaas,ICC Cricket World Cup,Away
+2007-04-16,ODI,Australia,Opponent,7 wickets,"National Cricket Stadium, St George's",2007,male,Sri Lanka,bat,NW Bracken,ICC Cricket World Cup,Away
+2007-04-18,ODI,Ireland,Sri Lanka,8 wickets,"National Cricket Stadium, St George's",2007,male,Sri Lanka,field,MF Maharoof,ICC Cricket World Cup,Away
+2007-04-24,ODI,New Zealand,Sri Lanka,81 runs,"Sabina Park, Kingston",2007,male,Sri Lanka,bat,DPMD Jayawardene,ICC Cricket World Cup,Away
+2007-04-28,ODI,Australia,Opponent,53 runs,"Kensington Oval, Bridgetown",2007,male,Australia,bat,AC Gilchrist,ICC Cricket World Cup,Away
 2007-06-25,Test,Bangladesh,Sri Lanka,234 runs,Sinhalese Sports Club Ground,2007,male,Sri Lanka,field,M Muralitharan,Bangladesh tour of Sri Lanka,Home
 2007-07-03,Test,Bangladesh,Sri Lanka,90 runs,P Sara Oval,2007,male,Sri Lanka,field,KC Sangakkara,Bangladesh tour of Sri Lanka,Home
 2007-07-11,Test,Bangladesh,Sri Lanka,193 runs,Asgiriya Stadium,2007,male,Sri Lanka,field,M Muralitharan,Bangladesh tour of Sri Lanka,Home
 2007-07-20,ODI,Bangladesh,Sri Lanka,70 runs,P Saravanamuttu Stadium,2007,male,Bangladesh,field,CRD Fernando,Bangladesh in Sri Lanka ODI Series,Away
 2007-07-23,ODI,Bangladesh,Sri Lanka,5 wickets,R Premadasa Stadium,2007,male,Sri Lanka,field,ST Jayasuriya,Bangladesh in Sri Lanka ODI Series,Home
 2007-07-25,ODI,Bangladesh,Sri Lanka,39 runs,R Premadasa Stadium,2007,male,Bangladesh,field,J Mubarak,Bangladesh in Sri Lanka ODI Series,Home
-2007-09-14,T20,Kenya,Sri Lanka,172 runs,New Wanderers Stadium,2007,male,Kenya,field,ST Jayasuriya,ICC World Twenty20,Away
-2007-09-15,T20,New Zealand,Sri Lanka,7 wickets,New Wanderers Stadium,2007,male,New Zealand,bat,ST Jayasuriya,ICC World Twenty20,Away
-2007-09-17,T20,Pakistan,Opponent,33 runs,New Wanderers Stadium,2007,male,Sri Lanka,field,Younis Khan,ICC World Twenty20,Away
-2007-09-18,T20,Bangladesh,Sri Lanka,64 runs,New Wanderers Stadium,2007,male,Bangladesh,field,CRD Fernando,ICC World Twenty20,Away
-2007-09-20,T20,Australia,Opponent,10 wickets,Newlands,2007,male,Australia,field,SR Clark,ICC World Twenty20,Away
+2007-09-14,T20,Kenya,Sri Lanka,172 runs,New Wanderers Stadium,2007,male,Kenya,field,ST Jayasuriya,ICC Men's T20 World Cup,Away
+2007-09-15,T20,New Zealand,Sri Lanka,7 wickets,New Wanderers Stadium,2007,male,New Zealand,bat,ST Jayasuriya,ICC Men's T20 World Cup,Away
+2007-09-17,T20,Pakistan,Opponent,33 runs,New Wanderers Stadium,2007,male,Sri Lanka,field,Younis Khan,ICC Men's T20 World Cup,Away
+2007-09-18,T20,Bangladesh,Sri Lanka,64 runs,New Wanderers Stadium,2007,male,Bangladesh,field,CRD Fernando,ICC Men's T20 World Cup,Away
+2007-09-20,T20,Australia,Opponent,10 wickets,Newlands,2007,male,Australia,field,SR Clark,ICC Men's T20 World Cup,Away
 2007-10-01,ODI,England,Sri Lanka,119 runs,Rangiri Dambulla International Stadium,2007,male,Sri Lanka,bat,MF Maharoof,England in Sri Lanka ODI Series,Home
 2007-10-04,ODI,England,Opponent,65 runs,Rangiri Dambulla International Stadium,2007,male,England,bat,OA Shah,England in Sri Lanka ODI Series,Home
 2007-10-10,ODI,England,Opponent,5 wickets,R Premadasa Stadium,2007,male,Sri Lanka,bat,AN Cook,England in Sri Lanka ODI Series,Home
@@ -149,12 +149,12 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2008-04-15,ODI,West Indies,No Result,,"Beausejour Stadium, Gros Islet",2008,male,West Indies,field,nan,Sri Lanka in West Indies ODI Series,Away
 2008-05-08,ODI,India,Opponent,8 wickets,Welagedara Stadium,2008,female,Sri Lanka,bat,SL Pujare,Women's Asia Cup,Away
 2008-05-11,ODI,India,Opponent,177 runs,Welagedara Stadium,2008,female,India,bat,A Rawat,Women's Asia Cup,Away
-2008-06-25,ODI,Bangladesh,Sri Lanka,131 runs,Gaddafi Stadium,2008,male,Bangladesh,field,KC Sangakkara,Asia Cup,Away
-2008-06-26,ODI,United Arab Emirates,Sri Lanka,142 runs,Gaddafi Stadium,2008,male,Sri Lanka,bat,BAW Mendis,Asia Cup,Away
-2008-06-29,ODI,Pakistan,Sri Lanka,64 runs,National Stadium,2008,male,Pakistan,field,KC Sangakkara,Asia Cup,Away
-2008-06-30,ODI,Bangladesh,Sri Lanka,158 runs,National Stadium,2008,male,Sri Lanka,bat,ST Jayasuriya,Asia Cup,Away
-2008-07-03,ODI,India,Opponent,6 wickets,National Stadium,2008,male,Sri Lanka,bat,MS Dhoni,Asia Cup,Away
-2008-07-06,ODI,India,Sri Lanka,100 runs,National Stadium,2008,male,India,field,BAW Mendis,Asia Cup,Away
+2008-06-25,ODI,Bangladesh,Sri Lanka,131 runs,Gaddafi Stadium,2008,male,Bangladesh,field,KC Sangakkara,Mens ODI Asia Cup,Away
+2008-06-26,ODI,United Arab Emirates,Sri Lanka,142 runs,Gaddafi Stadium,2008,male,Sri Lanka,bat,BAW Mendis,Mens ODI Asia Cup,Away
+2008-06-29,ODI,Pakistan,Sri Lanka,64 runs,National Stadium,2008,male,Pakistan,field,KC Sangakkara,Mens ODI Asia Cup,Away
+2008-06-30,ODI,Bangladesh,Sri Lanka,158 runs,National Stadium,2008,male,Sri Lanka,bat,ST Jayasuriya,Mens ODI Asia Cup,Away
+2008-07-03,ODI,India,Opponent,6 wickets,National Stadium,2008,male,Sri Lanka,bat,MS Dhoni,Mens ODI Asia Cup,Away
+2008-07-06,ODI,India,Sri Lanka,100 runs,National Stadium,2008,male,India,field,BAW Mendis,Mens ODI Asia Cup,Away
 2008-07-23,Test,India,Sri Lanka,239 runs,Sinhalese Sports Club Ground,2008,male,Sri Lanka,bat,M Muralitharan,India in Sri Lanka Test Series,Home
 2008-07-31,Test,India,Opponent,170 runs,Galle International Stadium,2008,male,India,bat,V Sehwag,India in Sri Lanka Test Series,Home
 2008-08-08,Test,India,Sri Lanka,8 wickets,P Saravanamuttu Stadium,2008,male,India,bat,KC Sangakkara,India in Sri Lanka Test Series,Away
@@ -182,13 +182,13 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2009-02-10,T20,India,Opponent,3 wickets,R Premadasa Stadium,2009,male,Sri Lanka,bat,YK Pathan,nan,Home
 2009-02-21,Test,Pakistan,Draw,,National Stadium,2009,male,Sri Lanka,bat,Younis Khan,Sri Lanka in Pakistan Test Series,Away
 2009-03-01,Test,Pakistan,Draw,,Gaddafi Stadium,2009,male,Pakistan,field,nan,Sri Lanka in Pakistan Test Series,Away
-2009-06-08,T20,Australia,Sri Lanka,6 wickets,Trent Bridge,2009,male,Sri Lanka,field,KC Sangakkara,ICC World Twenty20,Away
-2009-06-10,T20,West Indies,Sri Lanka,15 runs,Trent Bridge,2009,male,West Indies,field,ST Jayasuriya,ICC World Twenty20,Away
-2009-06-12,T20,Pakistan,Sri Lanka,19 runs,Lord's,2009,male,Sri Lanka,bat,TM Dilshan,ICC World Twenty20,Away
-2009-06-14,T20,Ireland,Sri Lanka,9 runs,Lord's,2009,male,Sri Lanka,bat,DPMD Jayawardene,ICC World Twenty20,Away
-2009-06-16,T20,New Zealand,Sri Lanka,48 runs,Trent Bridge,2009,male,Sri Lanka,bat,BAW Mendis,ICC World Twenty20,Away
-2009-06-19,T20,West Indies,Sri Lanka,57 runs,Kennington Oval,2009,male,West Indies,field,TM Dilshan,ICC World Twenty20,Away
-2009-06-21,T20,Pakistan,Opponent,8 wickets,Lord's,2009,male,Sri Lanka,bat,Shahid Afridi,ICC World Twenty20,Away
+2009-06-08,T20,Australia,Sri Lanka,6 wickets,Trent Bridge,2009,male,Sri Lanka,field,KC Sangakkara,ICC Men's T20 World Cup,Away
+2009-06-10,T20,West Indies,Sri Lanka,15 runs,Trent Bridge,2009,male,West Indies,field,ST Jayasuriya,ICC Men's T20 World Cup,Away
+2009-06-12,T20,Pakistan,Sri Lanka,19 runs,Lord's,2009,male,Sri Lanka,bat,TM Dilshan,ICC Men's T20 World Cup,Away
+2009-06-14,T20,Ireland,Sri Lanka,9 runs,Lord's,2009,male,Sri Lanka,bat,DPMD Jayawardene,ICC Men's T20 World Cup,Away
+2009-06-16,T20,New Zealand,Sri Lanka,48 runs,Trent Bridge,2009,male,Sri Lanka,bat,BAW Mendis,ICC Men's T20 World Cup,Away
+2009-06-19,T20,West Indies,Sri Lanka,57 runs,Kennington Oval,2009,male,West Indies,field,TM Dilshan,ICC Men's T20 World Cup,Away
+2009-06-21,T20,Pakistan,Opponent,8 wickets,Lord's,2009,male,Sri Lanka,bat,Shahid Afridi,ICC Men's T20 World Cup,Away
 2009-07-04,Test,Pakistan,Sri Lanka,50 runs,Galle International Stadium,2009,male,Pakistan,field,HMRKB Herath,Pakistan in Sri Lanka Test Series,Home
 2009-07-12,Test,Pakistan,Sri Lanka,7 wickets,P Sara Oval,2009,male,Pakistan,bat,Fawad Alam,Pakistan in Sri Lanka Test Series,Home
 2009-07-20,Test,Pakistan,Draw,,Sinhalese Sports Club Ground,2009,male,Sri Lanka,field,KC Sangakkara,Pakistan in Sri Lanka Test Series,Home
@@ -223,12 +223,12 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2010-01-08,ODI,Bangladesh,Sri Lanka,9 wickets,Shere Bangla National Stadium,2010,male,Sri Lanka,field,WU Tharanga,Tri-Nation Tournament in Bangladesh,Away
 2010-01-10,ODI,India,Opponent,8 wickets,Shere Bangla National Stadium,2010,male,Sri Lanka,bat,Z Khan,Tri-Nation Tournament in Bangladesh,Away
 2010-01-13,ODI,India,Sri Lanka,4 wickets,Shere Bangla National Stadium,2010,male,Sri Lanka,field,KMDN Kulasekara,Tri-Nation Tournament in Bangladesh,Away
-2010-04-30,T20,New Zealand,Opponent,2 wickets,Providence Stadium,2010,male,Sri Lanka,bat,NL McCullum,ICC World Twenty20,Away
-2010-05-03,T20,Zimbabwe,Sri Lanka,14 runs,Providence Stadium,2010,male,Sri Lanka,bat,DPMD Jayawardene,ICC World Twenty20,Away
-2010-05-07,T20,West Indies,Sri Lanka,57 runs,"Kensington Oval, Bridgetown",2010,male,Sri Lanka,bat,DPMD Jayawardene,ICC World Twenty20,Away
-2010-05-09,T20,Australia,Opponent,81 runs,"Kensington Oval, Bridgetown",2010,male,Australia,bat,CL White,ICC World Twenty20,Away
-2010-05-11,T20,India,Sri Lanka,5 wickets,"Beausejour Stadium, Gros Islet",2010,male,India,bat,AD Mathews,ICC World Twenty20,Away
-2010-05-13,T20,England,Opponent,7 wickets,"Beausejour Stadium, Gros Islet",2010,male,Sri Lanka,bat,SCJ Broad,ICC World Twenty20,Away
+2010-04-30,T20,New Zealand,Opponent,2 wickets,Providence Stadium,2010,male,Sri Lanka,bat,NL McCullum,ICC Men's T20 World Cup,Away
+2010-05-03,T20,Zimbabwe,Sri Lanka,14 runs,Providence Stadium,2010,male,Sri Lanka,bat,DPMD Jayawardene,ICC Men's T20 World Cup,Away
+2010-05-07,T20,West Indies,Sri Lanka,57 runs,"Kensington Oval, Bridgetown",2010,male,Sri Lanka,bat,DPMD Jayawardene,ICC Men's T20 World Cup,Away
+2010-05-09,T20,Australia,Opponent,81 runs,"Kensington Oval, Bridgetown",2010,male,Australia,bat,CL White,ICC Men's T20 World Cup,Away
+2010-05-11,T20,India,Sri Lanka,5 wickets,"Beausejour Stadium, Gros Islet",2010,male,India,bat,AD Mathews,ICC Men's T20 World Cup,Away
+2010-05-13,T20,England,Opponent,7 wickets,"Beausejour Stadium, Gros Islet",2010,male,Sri Lanka,bat,SCJ Broad,ICC Men's T20 World Cup,Away
 2010-05-22,T20,New Zealand,Opponent,28 runs,Central Broward Regional Park Stadium Turf Ground,2010,male,New Zealand,bat,SB Styris,New Zealand v Sri Lanka T20I Series,Away
 2010-05-23,T20,New Zealand,Sri Lanka,7 wickets,Central Broward Regional Park Stadium Turf Ground,2010,male,New Zealand,bat,KMDN Kulasekara,New Zealand v Sri Lanka T20I Series,Away
 2010-05-30,ODI,India,Opponent,7 wickets,Queens Sports Club,2010,male,India,field,RG Sharma,Zimbabwe Triangular Series,Away
@@ -236,10 +236,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2010-06-05,ODI,India,Sri Lanka,6 wickets,Harare Sports Club,2010,male,Sri Lanka,field,LD Chandimal,Zimbabwe Triangular Series,Away
 2010-06-07,ODI,Zimbabwe,Opponent,8 wickets,Harare Sports Club,2010,male,Zimbabwe,field,BRM Taylor,Zimbabwe Triangular Series,Away
 2010-06-09,ODI,Zimbabwe,Sri Lanka,9 wickets,Harare Sports Club,2010,male,Sri Lanka,field,TM Dilshan,Zimbabwe Triangular Series,Away
-2010-06-15,ODI,Pakistan,Sri Lanka,16 runs,Rangiri Dambulla International Stadium,2010,male,Sri Lanka,bat,Shahid Afridi,Asia Cup,Home
-2010-06-18,ODI,Bangladesh,Sri Lanka,126 runs,Rangiri Dambulla International Stadium,2010,male,Sri Lanka,bat,TM Dilshan,Asia Cup,Home
-2010-06-22,ODI,India,Sri Lanka,7 wickets,Rangiri Dambulla International Stadium,2010,male,Sri Lanka,field,MF Maharoof,Asia Cup,Home
-2010-06-24,ODI,India,Opponent,81 runs,Rangiri Dambulla International Stadium,2010,male,India,bat,KD Karthik,Asia Cup,Home
+2010-06-15,ODI,Pakistan,Sri Lanka,16 runs,Rangiri Dambulla International Stadium,2010,male,Sri Lanka,bat,Shahid Afridi,Mens ODI Asia Cup,Home
+2010-06-18,ODI,Bangladesh,Sri Lanka,126 runs,Rangiri Dambulla International Stadium,2010,male,Sri Lanka,bat,TM Dilshan,Mens ODI Asia Cup,Home
+2010-06-22,ODI,India,Sri Lanka,7 wickets,Rangiri Dambulla International Stadium,2010,male,Sri Lanka,field,MF Maharoof,Mens ODI Asia Cup,Home
+2010-06-24,ODI,India,Opponent,81 runs,Rangiri Dambulla International Stadium,2010,male,India,bat,KD Karthik,Mens ODI Asia Cup,Home
 2010-07-18,Test,India,Sri Lanka,10 wickets,Galle International Stadium,2010,male,Sri Lanka,bat,SL Malinga,India in Sri Lanka Test Series,Home
 2010-07-26,Test,India,Draw,,Sinhalese Sports Club Ground,2010,male,Sri Lanka,bat,KC Sangakkara,India in Sri Lanka Test Series,Home
 2010-08-03,Test,India,Opponent,5 wickets,P Sara Oval,2010,male,Sri Lanka,bat,VVS Laxman,India in Sri Lanka Test Series,Home
@@ -314,9 +314,9 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2012-03-04,ODI,Australia,Opponent,15 runs,"Brisbane Cricket Ground, Woolloongabba",2012,male,Australia,bat,DA Warner,Commonwealth Bank Series,Away
 2012-03-06,ODI,Australia,Sri Lanka,8 wickets,Adelaide Oval,2012,male,Australia,bat,TM Dilshan,Commonwealth Bank Series,Away
 2012-03-08,ODI,Australia,Opponent,16 runs,Adelaide Oval,2012,male,Sri Lanka,field,CJ McKay,Commonwealth Bank Series,Away
-2012-03-13,ODI,India,Opponent,50 runs,Shere Bangla National Stadium,2012,male,Sri Lanka,field,V Kohli,Asia Cup,Away
-2012-03-15,ODI,Pakistan,Opponent,6 wickets,Shere Bangla National Stadium,2012,male,Sri Lanka,bat,Aizaz Cheema,Asia Cup,Away
-2012-03-20,ODI,Bangladesh,Opponent,5 wickets,Shere Bangla National Stadium,2012,male,Bangladesh,field,Shakib Al Hasan,Asia Cup,Away
+2012-03-13,ODI,India,Opponent,50 runs,Shere Bangla National Stadium,2012,male,Sri Lanka,field,V Kohli,Mens ODI Asia Cup,Away
+2012-03-15,ODI,Pakistan,Opponent,6 wickets,Shere Bangla National Stadium,2012,male,Sri Lanka,bat,Aizaz Cheema,Mens ODI Asia Cup,Away
+2012-03-20,ODI,Bangladesh,Opponent,5 wickets,Shere Bangla National Stadium,2012,male,Bangladesh,field,Shakib Al Hasan,Mens ODI Asia Cup,Away
 2012-03-26,Test,England,Sri Lanka,75 runs,Galle International Stadium,2012,male,Sri Lanka,bat,HMRKB Herath,England in Sri Lanka Test Series,Home
 2012-04-03,Test,England,Opponent,8 wickets,P Sara Oval,2012,male,Sri Lanka,bat,KP Pietersen,England in Sri Lanka Test Series,Home
 2012-06-01,T20,Pakistan,Sri Lanka,37 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,male,Sri Lanka,bat,NLTC Perera,Pakistan in Sri Lanka T20I Series,Away
@@ -335,18 +335,18 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2012-07-31,ODI,India,Opponent,6 wickets,R Premadasa Stadium,2012,male,Sri Lanka,bat,V Kohli,India in Sri Lanka ODI Series,Home
 2012-08-04,ODI,India,Opponent,20 runs,Pallekele International Cricket Stadium,2012,male,India,bat,IK Pathan,India in Sri Lanka ODI Series,Home
 2012-08-07,T20,India,Opponent,39 runs,Pallekele International Cricket Stadium,2012,male,Sri Lanka,field,IK Pathan,nan,Home
-2012-09-18,T20,Zimbabwe,Sri Lanka,82 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,male,Zimbabwe,field,BAW Mendis,ICC World Twenty20,Away
-2012-09-22,T20,South Africa,Opponent,32 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,male,Sri Lanka,field,AB de Villiers,ICC World Twenty20,Away
+2012-09-18,T20,Zimbabwe,Sri Lanka,82 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,male,Zimbabwe,field,BAW Mendis,ICC Men's T20 World Cup,Away
+2012-09-22,T20,South Africa,Opponent,32 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2012,male,Sri Lanka,field,AB de Villiers,ICC Men's T20 World Cup,Away
 2012-09-26,T20,South Africa,Opponent,6 wickets,Galle International Stadium,2012,female,South Africa,field,T Chetty,ICC Women's World Twenty20,Home
-2012-09-27,T20,New Zealand,Tie,,Pallekele International Cricket Stadium,2012,male,New Zealand,bat,TM Dilshan,ICC World Twenty20,Home
+2012-09-27,T20,New Zealand,Tie,,Pallekele International Cricket Stadium,2012,male,New Zealand,bat,TM Dilshan,ICC Men's T20 World Cup,Home
 2012-09-28,T20,West Indies,Sri Lanka,5 runs,Galle International Stadium,2012,female,West Indies,field,CR Seneviratna,ICC Women's World Twenty20,Home
-2012-09-29,T20,West Indies,Sri Lanka,9 wickets,Pallekele International Cricket Stadium,2012,male,West Indies,bat,DPMD Jayawardene,ICC World Twenty20,Home
+2012-09-29,T20,West Indies,Sri Lanka,9 wickets,Pallekele International Cricket Stadium,2012,male,West Indies,bat,DPMD Jayawardene,ICC Men's T20 World Cup,Home
 2012-09-30,T20,New Zealand,Opponent,8 wickets,Galle International Stadium,2012,female,Sri Lanka,bat,SJ McGlashan,ICC Women's World Twenty20,Home
-2012-10-01,T20,England,Sri Lanka,19 runs,Pallekele International Cricket Stadium,2012,male,England,field,SL Malinga,ICC World Twenty20,Home
+2012-10-01,T20,England,Sri Lanka,19 runs,Pallekele International Cricket Stadium,2012,male,England,field,SL Malinga,ICC Men's T20 World Cup,Home
 2012-10-03,T20,India,Opponent,9 wickets,Nondescripts Cricket Club Ground,2012,female,Sri Lanka,bat,E Bisht,ICC Women's World Twenty20,Away
-2012-10-04,T20,Pakistan,Sri Lanka,16 runs,R Premadasa Stadium,2012,male,Sri Lanka,bat,DPMD Jayawardene,ICC World Twenty20,Home
-2012-10-07,T20,West Indies,Opponent,36 runs,R Premadasa Stadium,2012,male,West Indies,bat,MN Samuels,ICC World Twenty20,Home
-2012-10-28,T20,Bangladesh,Opponent,5 runs,Guanggong International Cricket Stadium,2012,female,Sri Lanka,field,Salma Khatun,Asian Cricket Council Women's Twenty20 Asia Cup,Away
+2012-10-04,T20,Pakistan,Sri Lanka,16 runs,R Premadasa Stadium,2012,male,Sri Lanka,bat,DPMD Jayawardene,ICC Men's T20 World Cup,Home
+2012-10-07,T20,West Indies,Opponent,36 runs,R Premadasa Stadium,2012,male,West Indies,bat,MN Samuels,ICC Men's T20 World Cup,Home
+2012-10-28,T20,Bangladesh,Opponent,5 runs,Guanggong International Cricket Stadium,2012,female,Sri Lanka,field,Salma Khatun,Women's Twenty20 Asia Cup,Away
 2012-10-30,T20,New Zealand,No Result,,Pallekele International Cricket Stadium,2012,male,Sri Lanka,field,nan,nan,Home
 2012-11-04,ODI,New Zealand,Sri Lanka,14 runs,Pallekele International Cricket Stadium,2012,male,New Zealand,bat,SL Malinga,New Zealand in Sri Lanka ODI Series,Home
 2012-11-06,ODI,New Zealand,Sri Lanka,7 wickets,Pallekele International Cricket Stadium,2012,male,Sri Lanka,field,TM Dilshan,New Zealand in Sri Lanka ODI Series,Home
@@ -393,7 +393,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2013-07-26,ODI,South Africa,Opponent,56 runs,Pallekele International Cricket Stadium,2013,male,South Africa,bat,DA Miller,South Africa in Sri Lanka ODI Series,Home
 2013-07-28,ODI,South Africa,Sri Lanka,8 wickets,Pallekele International Cricket Stadium,2013,male,South Africa,bat,TM Dilshan,South Africa in Sri Lanka ODI Series,Home
 2013-07-31,ODI,South Africa,Sri Lanka,128 runs,R Premadasa Stadium,2013,male,Sri Lanka,bat,TM Dilshan,South Africa in Sri Lanka ODI Series,Home
-2013-07-31,T20,Pakistan,No Result,,YMCA Cricket Club,2013,female,Sri Lanka,field,nan,ICC Women's World Twenty20 Qualifier,Away
+2013-07-31,T20,Pakistan,No Result,,YMCA Cricket Club,2013,female,Sri Lanka,field,nan,ICC Women's T20 World Cup Qualifier,Away
 2013-08-02,T20,South Africa,Opponent,12 runs,R Premadasa Stadium,2013,male,South Africa,bat,JP Duminy,South Africa in Sri Lanka T20I Series,Home
 2013-08-04,T20,South Africa,Opponent,22 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,male,South Africa,bat,DA Miller,South Africa in Sri Lanka T20I Series,Away
 2013-08-06,T20,South Africa,Sri Lanka,6 wickets,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2013,male,South Africa,bat,TM Dilshan,South Africa in Sri Lanka T20I Series,Away
@@ -423,22 +423,22 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2014-02-17,ODI,Bangladesh,Sri Lanka,13 runs,Shere Bangla National Stadium,2014,male,Bangladesh,field,NLTC Perera,Sri Lanka in Bangladesh ODI Series,Away
 2014-02-20,ODI,Bangladesh,Sri Lanka,61 runs,Shere Bangla National Stadium,2014,male,Sri Lanka,bat,KC Sangakkara,Sri Lanka in Bangladesh ODI Series,Away
 2014-02-22,ODI,Bangladesh,Sri Lanka,6 wickets,Shere Bangla National Stadium,2014,male,Sri Lanka,field,MDKJ Perera,Sri Lanka in Bangladesh ODI Series,Away
-2014-02-25,ODI,Pakistan,Sri Lanka,12 runs,Khan Shaheb Osman Ali Stadium,2014,male,Sri Lanka,bat,SL Malinga,Asia Cup,Away
-2014-02-28,ODI,India,Sri Lanka,2 wickets,Khan Shaheb Osman Ali Stadium,2014,male,Sri Lanka,field,KC Sangakkara,Asia Cup,Away
-2014-03-06,ODI,Bangladesh,Sri Lanka,3 wickets,Shere Bangla National Stadium,2014,male,Bangladesh,bat,AD Mathews,Asia Cup,Away
-2014-03-08,ODI,Pakistan,Sri Lanka,5 wickets,Shere Bangla National Stadium,2014,male,Pakistan,bat,SL Malinga,Asia Cup,Away
-2014-03-22,T20,South Africa,Sri Lanka,5 runs,Zahur Ahmed Chowdhury Stadium,2014,male,Sri Lanka,bat,MDKJ Perera,World T20,Away
-2014-03-24,T20,India,Sri Lanka,22 runs,Sylhet Stadium,2014,female,Sri Lanka,bat,KDU Prabodhani,Women's World T20,Away
-2014-03-24,T20,Netherlands,Sri Lanka,9 wickets,Zahur Ahmed Chowdhury Stadium,2014,male,Sri Lanka,field,AD Mathews,World T20,Away
-2014-03-27,T20,England,Opponent,6 wickets,Zahur Ahmed Chowdhury Stadium,2014,male,England,field,AD Hales,World T20,Away
-2014-03-28,T20,West Indies,Opponent,8 wickets,Sylhet Stadium,2014,female,Sri Lanka,bat,SF Daley,Women's World T20,Away
-2014-03-30,T20,England,Opponent,7 wickets,Sylhet Stadium,2014,female,Sri Lanka,bat,A Shrubsole,Women's World T20,Away
-2014-03-31,T20,New Zealand,Sri Lanka,59 runs,Zahur Ahmed Chowdhury Stadium,2014,male,New Zealand,field,HMRKB Herath,World T20,Away
-2014-04-01,T20,Bangladesh,Opponent,3 runs,Sylhet Stadium,2014,female,Bangladesh,bat,Rumana Ahmed,Women's World T20,Away
-2014-04-02,T20,New Zealand,Opponent,6 wickets,Sylhet Stadium,2014,female,Sri Lanka,bat,RH Priest,Women's World T20,Away
-2014-04-03,T20,West Indies,Sri Lanka,27 runs,Shere Bangla National Stadium,2014,male,Sri Lanka,bat,AD Mathews,World T20,Away
-2014-04-03,T20,Pakistan,Opponent,14 runs,Sylhet Stadium,2014,female,Pakistan,bat,Bismah Maroof,Women's World T20,Away
-2014-04-06,T20,India,Sri Lanka,6 wickets,Shere Bangla National Stadium,2014,male,Sri Lanka,field,KC Sangakkara,World T20,Away
+2014-02-25,ODI,Pakistan,Sri Lanka,12 runs,Khan Shaheb Osman Ali Stadium,2014,male,Sri Lanka,bat,SL Malinga,Mens ODI Asia Cup,Away
+2014-02-28,ODI,India,Sri Lanka,2 wickets,Khan Shaheb Osman Ali Stadium,2014,male,Sri Lanka,field,KC Sangakkara,Mens ODI Asia Cup,Away
+2014-03-06,ODI,Bangladesh,Sri Lanka,3 wickets,Shere Bangla National Stadium,2014,male,Bangladesh,bat,AD Mathews,Mens ODI Asia Cup,Away
+2014-03-08,ODI,Pakistan,Sri Lanka,5 wickets,Shere Bangla National Stadium,2014,male,Pakistan,bat,SL Malinga,Mens ODI Asia Cup,Away
+2014-03-22,T20,South Africa,Sri Lanka,5 runs,Zahur Ahmed Chowdhury Stadium,2014,male,Sri Lanka,bat,MDKJ Perera,ICC Men's T20 World Cup,Away
+2014-03-24,T20,India,Sri Lanka,22 runs,Sylhet Stadium,2014,female,Sri Lanka,bat,KDU Prabodhani,ICC Women's World Twenty20,Away
+2014-03-24,T20,Netherlands,Sri Lanka,9 wickets,Zahur Ahmed Chowdhury Stadium,2014,male,Sri Lanka,field,AD Mathews,ICC Men's T20 World Cup,Away
+2014-03-27,T20,England,Opponent,6 wickets,Zahur Ahmed Chowdhury Stadium,2014,male,England,field,AD Hales,ICC Men's T20 World Cup,Away
+2014-03-28,T20,West Indies,Opponent,8 wickets,Sylhet Stadium,2014,female,Sri Lanka,bat,SF Daley,ICC Women's World Twenty20,Away
+2014-03-30,T20,England,Opponent,7 wickets,Sylhet Stadium,2014,female,Sri Lanka,bat,A Shrubsole,ICC Women's World Twenty20,Away
+2014-03-31,T20,New Zealand,Sri Lanka,59 runs,Zahur Ahmed Chowdhury Stadium,2014,male,New Zealand,field,HMRKB Herath,ICC Men's T20 World Cup,Away
+2014-04-01,T20,Bangladesh,Opponent,3 runs,Sylhet Stadium,2014,female,Bangladesh,bat,Rumana Ahmed,ICC Women's World Twenty20,Away
+2014-04-02,T20,New Zealand,Opponent,6 wickets,Sylhet Stadium,2014,female,Sri Lanka,bat,RH Priest,ICC Women's World Twenty20,Away
+2014-04-03,T20,West Indies,Sri Lanka,27 runs,Shere Bangla National Stadium,2014,male,Sri Lanka,bat,AD Mathews,ICC Men's T20 World Cup,Away
+2014-04-03,T20,Pakistan,Opponent,14 runs,Sylhet Stadium,2014,female,Pakistan,bat,Bismah Maroof,ICC Women's World Twenty20,Away
+2014-04-06,T20,India,Sri Lanka,6 wickets,Shere Bangla National Stadium,2014,male,Sri Lanka,field,KC Sangakkara,ICC Men's T20 World Cup,Away
 2014-05-06,ODI,Ireland,Sri Lanka,79 runs,"Clontarf Cricket Club Ground, Dublin",2014,male,Ireland,field,BAW Mendis,Sri Lanka tour of England and Ireland,Away
 2014-05-20,T20,England,Sri Lanka,9 runs,Kennington Oval,2014,male,England,field,NLTC Perera,nan,Away
 2014-05-22,ODI,England,Opponent,81 runs,Kennington Oval,2014,male,Sri Lanka,field,CJ Jordan,Sri Lanka in England ODI Series,Away
@@ -532,17 +532,17 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2016-02-09,T20,India,Sri Lanka,5 wickets,Maharashtra Cricket Association Stadium,2016,male,Sri Lanka,field,CAK Rajitha,Sri Lanka in India T20I Series,Away
 2016-02-12,T20,India,Opponent,69 runs,JSCA International Stadium Complex,2016,male,Sri Lanka,field,S Dhawan,Sri Lanka in India T20I Series,Away
 2016-02-14,T20,India,Opponent,9 wickets,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium,2016,male,India,field,R Ashwin,Sri Lanka in India T20I Series,Away
-2016-02-25,T20,United Arab Emirates,Sri Lanka,14 runs,Shere Bangla National Stadium,2016,male,United Arab Emirates,field,SL Malinga,Asia Cup,Away
-2016-02-28,T20,Bangladesh,Opponent,23 runs,Shere Bangla National Stadium,2016,male,Bangladesh,bat,Sabbir Rahman,Asia Cup,Away
-2016-03-01,T20,India,Opponent,5 wickets,Shere Bangla National Stadium,2016,male,India,field,V Kohli,Asia Cup,Away
-2016-03-04,T20,Pakistan,Opponent,6 wickets,Shere Bangla National Stadium,2016,male,Pakistan,field,Umar Akmal,Asia Cup,Away
-2016-03-15,T20,New Zealand,Opponent,7 wickets,Feroz Shah Kotla,2016,female,Sri Lanka,bat,SW Bates,Women's World T20,Away
-2016-03-20,T20,West Indies,Opponent,7 wickets,M Chinnaswamy Stadium,2016,male,West Indies,field,ADS Fletcher,World T20,Away
-2016-03-20,T20,Ireland,Sri Lanka,14 runs,"Punjab Cricket Association IS Bindra Stadium, Mohali",2016,female,Sri Lanka,bat,CJ Metcalfe,Women's World T20,Away
-2016-03-24,T20,Australia,Opponent,9 wickets,Feroz Shah Kotla,2016,female,Sri Lanka,bat,EJ Villani,Women's World T20,Away
-2016-03-26,T20,England,Opponent,10 runs,Feroz Shah Kotla,2016,male,Sri Lanka,field,JC Buttler,World T20,Away
-2016-03-28,T20,South Africa,Sri Lanka,10 runs,M Chinnaswamy Stadium,2016,female,Sri Lanka,bat,AC Jayangani,Women's World T20,Away
-2016-03-28,T20,South Africa,Opponent,8 wickets,Feroz Shah Kotla,2016,male,South Africa,field,AM Phangiso,World T20,Away
+2016-02-25,T20,United Arab Emirates,Sri Lanka,14 runs,Shere Bangla National Stadium,2016,male,United Arab Emirates,field,SL Malinga,Men's T20 Asia Cup,Away
+2016-02-28,T20,Bangladesh,Opponent,23 runs,Shere Bangla National Stadium,2016,male,Bangladesh,bat,Sabbir Rahman,Men's T20 Asia Cup,Away
+2016-03-01,T20,India,Opponent,5 wickets,Shere Bangla National Stadium,2016,male,India,field,V Kohli,Men's T20 Asia Cup,Away
+2016-03-04,T20,Pakistan,Opponent,6 wickets,Shere Bangla National Stadium,2016,male,Pakistan,field,Umar Akmal,Men's T20 Asia Cup,Away
+2016-03-15,T20,New Zealand,Opponent,7 wickets,Feroz Shah Kotla,2016,female,Sri Lanka,bat,SW Bates,ICC Women's World Twenty20,Away
+2016-03-20,T20,Ireland,Sri Lanka,14 runs,"Punjab Cricket Association IS Bindra Stadium, Mohali",2016,female,Sri Lanka,bat,CJ Metcalfe,ICC Women's World Twenty20,Away
+2016-03-20,T20,West Indies,Opponent,7 wickets,M Chinnaswamy Stadium,2016,male,West Indies,field,ADS Fletcher,ICC Men's T20 World Cup,Away
+2016-03-24,T20,Australia,Opponent,9 wickets,Feroz Shah Kotla,2016,female,Sri Lanka,bat,EJ Villani,ICC Women's World Twenty20,Away
+2016-03-26,T20,England,Opponent,10 runs,Feroz Shah Kotla,2016,male,Sri Lanka,field,JC Buttler,ICC Men's T20 World Cup,Away
+2016-03-28,T20,South Africa,Opponent,8 wickets,Feroz Shah Kotla,2016,male,South Africa,field,AM Phangiso,ICC Men's T20 World Cup,Away
+2016-03-28,T20,South Africa,Sri Lanka,10 runs,M Chinnaswamy Stadium,2016,female,Sri Lanka,bat,AC Jayangani,ICC Women's World Twenty20,Away
 2016-05-19,Test,England,Opponent,88 runs,Headingley,2016,male,Sri Lanka,field,JM Bairstow,Sri Lanka in England Test Series,Away
 2016-05-27,Test,England,Opponent,9 wickets,Riverside Ground,2016,male,England,bat,JM Anderson,Sri Lanka in England Test Series,Away
 2016-06-09,Test,England,Draw,,Lord's,2016,male,England,bat,JM Bairstow,Sri Lanka in England Test Series,Away
@@ -590,8 +590,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2017-02-08,ODI,Ireland,Sri Lanka,146 runs,Nondescripts Cricket Club Ground,2017,female,Sri Lanka,bat,SIP Fernando,ICC Women's World Cup Qualifier,Away
 2017-02-10,ODI,South Africa,Opponent,88 runs,SuperSport Park,2017,male,Sri Lanka,field,HM Amla,Sri Lanka in South Africa ODI Series,Away
 2017-02-15,ODI,Pakistan,Sri Lanka,5 wickets,Nondescripts Cricket Club Ground,2017,female,Sri Lanka,field,LE Kaushalya,ICC Women's World Cup Qualifier,Away
-2017-02-17,T20,Australia,Sri Lanka,5 wickets,Melbourne Cricket Ground,2017,male,Sri Lanka,field,DAS Gunaratne,Sri Lanka in Australia T20I Series,Away
 2017-02-17,ODI,South Africa,Opponent,9 wickets,P Sara Oval,2017,female,Sri Lanka,bat,S Luus,ICC Women's World Cup Qualifier,Home
+2017-02-17,T20,Australia,Sri Lanka,5 wickets,Melbourne Cricket Ground,2017,male,Sri Lanka,field,DAS Gunaratne,Sri Lanka in Australia T20I Series,Away
 2017-02-19,ODI,Bangladesh,Sri Lanka,42 runs,Nondescripts Cricket Club Ground,2017,female,Bangladesh,field,AC Jayangani,ICC Women's World Cup Qualifier,Away
 2017-02-19,T20,Australia,Sri Lanka,2 wickets,"Simonds Stadium, South Geelong",2017,male,Sri Lanka,field,DAS Gunaratne,Sri Lanka in Australia T20I Series,Away
 2017-02-22,T20,Australia,Opponent,41 runs,Adelaide Oval,2017,male,Sri Lanka,field,A Zampa,Sri Lanka in Australia T20I Series,Away
@@ -608,8 +608,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2017-06-24,ODI,New Zealand,Opponent,9 wickets,County Ground,2017,female,New Zealand,field,HR Huddleston,ICC Women's World Cup,Away
 2017-06-29,ODI,Australia,Opponent,8 wickets,County Ground,2017,female,Australia,field,AC Jayangani,ICC Women's World Cup,Away
 2017-06-30,ODI,Zimbabwe,Opponent,6 wickets,Galle International Stadium,2017,male,Sri Lanka,bat,SF Mire,Zimbabwe in Sri Lanka ODI Series,Home
-2017-07-02,ODI,Zimbabwe,Sri Lanka,7 wickets,Galle International Stadium,2017,male,Sri Lanka,field,PADLR Sandakan,Zimbabwe in Sri Lanka ODI Series,Home
 2017-07-02,ODI,England,Opponent,7 wickets,County Ground,2017,female,Sri Lanka,bat,LA Marsh,ICC Women's World Cup,Away
+2017-07-02,ODI,Zimbabwe,Sri Lanka,7 wickets,Galle International Stadium,2017,male,Sri Lanka,field,PADLR Sandakan,Zimbabwe in Sri Lanka ODI Series,Home
 2017-07-05,ODI,India,Opponent,16 runs,County Ground,2017,female,India,bat,DB Sharma,ICC Women's World Cup,Away
 2017-07-06,ODI,Zimbabwe,Sri Lanka,8 wickets,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,male,Sri Lanka,field,MD Gunathilaka,Zimbabwe in Sri Lanka ODI Series,Away
 2017-07-08,ODI,Zimbabwe,Opponent,4 wickets,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2017,male,Sri Lanka,bat,CR Ervine,Zimbabwe in Sri Lanka ODI Series,Away
@@ -665,8 +665,8 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2018-03-28,T20,Pakistan,Opponent,1 wicket,Sinhalese Sports Club Ground,2018,female,Pakistan,field,Javeria Khan,Pakistan Women tour of Sri Lanka,Home
 2018-03-30,T20,Pakistan,Sri Lanka,7 wickets,Nondescripts Cricket Club Ground,2018,female,Pakistan,bat,HASD Siriwardene,Pakistan Women tour of Sri Lanka,Away
 2018-06-04,T20,Malaysia,Sri Lanka,90 runs,Royal Selangor Club,2018,female,Malaysia,field,NND de Silva,Women's Twenty20 Asia Cup,Away
-2018-06-06,T20,Pakistan,Opponent,23 runs,Kinrara Academy Oval,2018,female,Sri Lanka,field,Nida Dar,Women's Twenty20 Asia Cup,Away
 2018-06-06,Test,West Indies,Opponent,226 runs,"Queen's Park Oval, Port of Spain",2018,male,West Indies,bat,SO Dowrich,Sri Lanka tour of West Indies,Away
+2018-06-06,T20,Pakistan,Opponent,23 runs,Kinrara Academy Oval,2018,female,Sri Lanka,field,Nida Dar,Women's Twenty20 Asia Cup,Away
 2018-06-07,T20,India,Opponent,7 wickets,Royal Selangor Club,2018,female,Sri Lanka,bat,AA Patil,Women's Twenty20 Asia Cup,Away
 2018-06-09,T20,Thailand,Opponent,4 wickets,Royal Selangor Club,2018,female,Thailand,field,W Liengprasert,Women's Twenty20 Asia Cup,Away
 2018-06-14,Test,West Indies,Draw,,"Daren Sammy National Cricket Stadium, Gros Islet",2018,male,Sri Lanka,bat,ST Gabriel,Sri Lanka tour of West Indies,Away
@@ -681,7 +681,7 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2018-08-14,T20,South Africa,Sri Lanka,3 wickets,"R.Premadasa Stadium, Khettarama",2018,male,South Africa,bat,DM de Silva,South Africa tour of Sri Lanka,Home
 2018-09-11,ODI,India,Opponent,9 wickets,Galle International Stadium,2018,female,Sri Lanka,bat,nan,ICC Women's Championship,Home
 2018-09-13,ODI,India,Opponent,7 runs,Galle International Stadium,2018,female,India,bat,nan,ICC Women's Championship,Home
-2018-09-15,ODI,Bangladesh,Opponent,137 runs,Dubai International Cricket Stadium,2018,male,Bangladesh,bat,Mushfiqur Rahim,Asia Cup,Away
+2018-09-15,ODI,Bangladesh,Opponent,137 runs,Dubai International Cricket Stadium,2018,male,Bangladesh,bat,Mushfiqur Rahim,Mens ODI Asia Cup,Away
 2018-09-16,ODI,India,Sri Lanka,3 wickets,Chilaw Marians Cricket Club Ground,2018,female,Sri Lanka,field,nan,ICC Women's Championship,Away
 2018-09-21,T20,India,No Result,,Colts Cricket Club Ground,2018,female,India,field,nan,India Women tour of Sri Lanka,Away
 2018-09-22,T20,India,Opponent,5 wickets,Colombo Cricket Club Ground,2018,female,India,field,nan,India Women tour of Sri Lanka,Home
@@ -694,10 +694,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2018-10-23,ODI,England,Sri Lanka,219 runs,"R.Premadasa Stadium, Khettarama",2018,male,Sri Lanka,bat,N Dickwella,England tour of Sri Lanka,Home
 2018-10-27,T20,England,Opponent,30 runs,"R.Premadasa Stadium, Khettarama",2018,male,Sri Lanka,field,JL Denly,England tour of Sri Lanka,Home
 2018-11-06,Test,England,Opponent,211 runs,Galle International Stadium,2018,male,England,bat,BT Foakes,England tour of Sri Lanka,Home
-2018-11-12,T20,South Africa,Opponent,7 wickets,"Daren Sammy National Cricket Stadium, Gros Islet",2018,female,South Africa,field,S Ismail,ICC Women's T20 World Cup,Away
+2018-11-12,T20,South Africa,Opponent,7 wickets,"Daren Sammy National Cricket Stadium, Gros Islet",2018,female,South Africa,field,S Ismail,ICC Women's World Twenty20,Away
 2018-11-14,Test,England,Opponent,57 runs,Pallekele International Cricket Stadium,2018,male,England,bat,JE Root,England tour of Sri Lanka,Home
-2018-11-14,T20,Bangladesh,Sri Lanka,25 runs,"Daren Sammy National Cricket Stadium, Gros Islet",2018,female,Bangladesh,field,HASD Siriwardene,ICC Women's T20 World Cup,Away
-2018-11-16,T20,West Indies,Opponent,83 runs,"Daren Sammy National Cricket Stadium, Gros Islet",2018,female,West Indies,bat,HK Matthews,ICC Women's T20 World Cup,Away
+2018-11-14,T20,Bangladesh,Sri Lanka,25 runs,"Daren Sammy National Cricket Stadium, Gros Islet",2018,female,Bangladesh,field,HASD Siriwardene,ICC Women's World Twenty20,Away
+2018-11-16,T20,West Indies,Opponent,83 runs,"Daren Sammy National Cricket Stadium, Gros Islet",2018,female,West Indies,bat,HK Matthews,ICC Women's World Twenty20,Away
 2018-11-23,Test,England,Opponent,42 runs,Sinhalese Sports Club Ground,2018,male,England,bat,JM Bairstow,England tour of Sri Lanka,Home
 2018-12-15,Test,New Zealand,Draw,,"Basin Reserve, Wellington",2018,male,New Zealand,field,TWM Latham,Sri Lanka tour of New Zealand,Away
 2018-12-26,Test,New Zealand,Opponent,423 runs,Hagley Oval,2018,male,Sri Lanka,field,TG Southee,Sri Lanka tour of New Zealand,Away
@@ -729,12 +729,12 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2019-03-26,T20,England,Opponent,8 wickets,P Sara Oval,2019,female,Sri Lanka,bat,nan,England Women tour of Sri Lanka,Home
 2019-03-28,T20,England,Opponent,96 runs,P Sara Oval,2019,female,Sri Lanka,field,nan,England Women tour of Sri Lanka,Home
 2019-05-21,ODI,Scotland,Sri Lanka,35 runs,"Grange Cricket Club, Raeburn Place",2019,male,Scotland,field,N Pradeep,Sri Lanka tour of England and Scotland,Away
-2019-06-01,ODI,New Zealand,Opponent,10 wickets,Sophia Gardens,2019,male,New Zealand,field,MJ Henry,World Cup,Away
-2019-06-15,ODI,Australia,Opponent,87 runs,Kennington Oval,2019,male,Sri Lanka,field,AJ Finch,World Cup,Away
-2019-06-21,ODI,England,Sri Lanka,20 runs,Headingley,2019,male,Sri Lanka,bat,SL Malinga,World Cup,Away
-2019-06-28,ODI,South Africa,Opponent,9 wickets,Riverside Ground,2019,male,South Africa,field,D Pretorius,World Cup,Away
-2019-07-01,ODI,West Indies,Sri Lanka,23 runs,Riverside Ground,2019,male,West Indies,field,WIA Fernando,World Cup,Away
-2019-07-06,ODI,India,Opponent,7 wickets,Headingley,2019,male,Sri Lanka,bat,RG Sharma,World Cup,Away
+2019-06-01,ODI,New Zealand,Opponent,10 wickets,Sophia Gardens,2019,male,New Zealand,field,MJ Henry,ICC Cricket World Cup,Away
+2019-06-15,ODI,Australia,Opponent,87 runs,Kennington Oval,2019,male,Sri Lanka,field,AJ Finch,ICC Cricket World Cup,Away
+2019-06-21,ODI,England,Sri Lanka,20 runs,Headingley,2019,male,Sri Lanka,bat,SL Malinga,ICC Cricket World Cup,Away
+2019-06-28,ODI,South Africa,Opponent,9 wickets,Riverside Ground,2019,male,South Africa,field,D Pretorius,ICC Cricket World Cup,Away
+2019-07-01,ODI,West Indies,Sri Lanka,23 runs,Riverside Ground,2019,male,West Indies,field,WIA Fernando,ICC Cricket World Cup,Away
+2019-07-06,ODI,India,Opponent,7 wickets,Headingley,2019,male,Sri Lanka,bat,RG Sharma,ICC Cricket World Cup,Away
 2019-07-26,ODI,Bangladesh,Sri Lanka,91 runs,"R.Premadasa Stadium, Khettarama",2019,male,Sri Lanka,bat,MDKJ Perera,Bangladesh tour of Sri Lanka,Home
 2019-07-28,ODI,Bangladesh,Sri Lanka,7 wickets,"R.Premadasa Stadium, Khettarama",2019,male,Bangladesh,bat,WIA Fernando,Bangladesh tour of Sri Lanka,Home
 2019-07-31,ODI,Bangladesh,Sri Lanka,122 runs,"R.Premadasa Stadium, Khettarama",2019,male,Sri Lanka,bat,AD Mathews,Bangladesh tour of Sri Lanka,Home
@@ -744,14 +744,14 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2019-09-03,T20,New Zealand,Opponent,4 wickets,Pallekele International Cricket Stadium,2019,male,Sri Lanka,bat,TG Southee,New Zealand tour of Sri Lanka,Home
 2019-09-06,T20,New Zealand,Sri Lanka,37 runs,Pallekele International Cricket Stadium,2019,male,Sri Lanka,bat,SL Malinga,New Zealand tour of Sri Lanka,Home
 2019-09-29,T20,Australia,Opponent,41 runs,North Sydney Oval,2019,female,Australia,bat,BL Mooney,Sri Lanka Women tour of Australia,Away
-2019-09-30,ODI,Pakistan,Opponent,67 runs,National Stadium,2019,male,Pakistan,bat,Usman Shinwari,Sri Lanka tour of Pakistan,Away
 2019-09-30,T20,Australia,Opponent,9 wickets,North Sydney Oval,2019,female,Sri Lanka,bat,BL Mooney,Sri Lanka Women tour of Australia,Away
+2019-09-30,ODI,Pakistan,Opponent,67 runs,National Stadium,2019,male,Pakistan,bat,Usman Shinwari,Sri Lanka tour of Pakistan,Away
 2019-10-02,ODI,Pakistan,Opponent,5 wickets,National Stadium,2019,male,Sri Lanka,bat,Abid Ali,Sri Lanka tour of Pakistan,Away
 2019-10-02,T20,Australia,Opponent,132 runs,North Sydney Oval,2019,female,Australia,bat,AJ Healy,Sri Lanka Women tour of Australia,Away
 2019-10-05,T20,Pakistan,Sri Lanka,64 runs,Gaddafi Stadium,2019,male,Pakistan,field,MD Gunathilaka,Sri Lanka tour of Pakistan,Away
 2019-10-05,ODI,Australia,Opponent,157 runs,Allan Border Field,2019,female,Australia,bat,MM Lanning,ICC Women's Championship,Away
-2019-10-07,T20,Pakistan,Sri Lanka,35 runs,Gaddafi Stadium,2019,male,Sri Lanka,bat,PBB Rajapaksa,Sri Lanka tour of Pakistan,Away
 2019-10-07,ODI,Australia,Opponent,110 runs,Allan Border Field,2019,female,Australia,bat,RL Haynes,ICC Women's Championship,Away
+2019-10-07,T20,Pakistan,Sri Lanka,35 runs,Gaddafi Stadium,2019,male,Sri Lanka,bat,PBB Rajapaksa,Sri Lanka tour of Pakistan,Away
 2019-10-09,T20,Pakistan,Sri Lanka,13 runs,Gaddafi Stadium,2019,male,Sri Lanka,bat,PWH de Silva,Sri Lanka tour of Pakistan,Away
 2019-10-09,ODI,Australia,Opponent,9 wickets,Allan Border Field,2019,female,Sri Lanka,bat,AJ Healy,ICC Women's Championship,Away
 2019-10-27,T20,Australia,Opponent,134 runs,Adelaide Oval,2019,male,Sri Lanka,field,DA Warner,Sri Lanka tour of Australia,Away
@@ -764,12 +764,12 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2020-01-19,Test,Zimbabwe,Sri Lanka,10 wickets,Harare Sports Club,2020,male,Zimbabwe,bat,AD Mathews,Sri Lanka tour of Zimbabwe,Away
 2020-01-27,Test,Zimbabwe,Draw,,Harare Sports Club,2020,male,Zimbabwe,bat,Sikandar Raza,Sri Lanka tour of Zimbabwe,Away
 2020-02-22,ODI,West Indies,Sri Lanka,1 wicket,Sinhalese Sports Club Ground,2020,male,Sri Lanka,field,PWH de Silva,West Indies tour of Sri Lanka,Home
-2020-02-22,T20,New Zealand,Opponent,7 wickets,W.A.C.A. Ground,2020,female,New Zealand,field,HNK Jensen,ICC Women's T20 World Cup,Away
-2020-02-24,T20,Australia,Opponent,5 wickets,W.A.C.A. Ground,2020,female,Sri Lanka,bat,RL Haynes,ICC Women's T20 World Cup,Away
+2020-02-22,T20,New Zealand,Opponent,7 wickets,W.A.C.A. Ground,2020,female,New Zealand,field,HNK Jensen,ICC Women's World Twenty20,Away
+2020-02-24,T20,Australia,Opponent,5 wickets,W.A.C.A. Ground,2020,female,Sri Lanka,bat,RL Haynes,ICC Women's World Twenty20,Away
 2020-02-26,ODI,West Indies,Sri Lanka,161 runs,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",2020,male,West Indies,field,WIA Fernando,West Indies tour of Sri Lanka,Away
-2020-02-29,T20,India,Opponent,7 wickets,Junction Oval,2020,female,Sri Lanka,bat,RP Yadav,ICC Women's T20 World Cup,Away
+2020-02-29,T20,India,Opponent,7 wickets,Junction Oval,2020,female,Sri Lanka,bat,RP Yadav,ICC Women's World Twenty20,Away
 2020-03-01,ODI,West Indies,Sri Lanka,6 runs,Pallekele International Cricket Stadium,2020,male,Sri Lanka,bat,AD Mathews,West Indies tour of Sri Lanka,Home
-2020-03-02,T20,Bangladesh,Sri Lanka,9 wickets,Junction Oval,2020,female,Bangladesh,bat,HASD Siriwardene,ICC Women's T20 World Cup,Away
+2020-03-02,T20,Bangladesh,Sri Lanka,9 wickets,Junction Oval,2020,female,Bangladesh,bat,HASD Siriwardene,ICC Women's World Twenty20,Away
 2020-03-04,T20,West Indies,Opponent,25 runs,Pallekele International Cricket Stadium,2020,male,West Indies,bat,O Thomas,West Indies tour of Sri Lanka,Home
 2020-03-06,T20,West Indies,Opponent,7 wickets,Pallekele International Cricket Stadium,2020,male,West Indies,field,AD Russell,West Indies tour of Sri Lanka,Home
 2020-12-26,Test,South Africa,Opponent,45 runs,SuperSport Park,2020,male,Sri Lanka,bat,F du Plessis,Sri Lanka tour of South Africa,Away
@@ -863,10 +863,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2022-07-30,T20,England,Opponent,5 wickets,"Edgbaston, Birmingham",2022,female,Sri Lanka,bat,nan,Commonwealth Games Women's Cricket Competition,Away
 2022-08-02,T20,New Zealand,Opponent,45 runs,"Edgbaston, Birmingham",2022,female,New Zealand,bat,nan,Commonwealth Games Women's Cricket Competition,Away
 2022-08-04,T20,South Africa,Opponent,10 wickets,"Edgbaston, Birmingham",2022,female,South Africa,field,nan,Commonwealth Games Women's Cricket Competition,Away
-2022-09-01,T20,Bangladesh,Sri Lanka,2 wickets,Dubai International Cricket Stadium,2022,male,Sri Lanka,field,BKG Mendis,Asia Cup,Away
-2022-09-06,T20,India,Sri Lanka,6 wickets,Dubai International Cricket Stadium,2022,male,Sri Lanka,field,MD Shanaka,Asia Cup,Away
-2022-09-09,T20,Pakistan,Sri Lanka,5 wickets,Dubai International Cricket Stadium,2022,male,Sri Lanka,field,PWH de Silva,Asia Cup,Away
-2022-09-11,T20,Pakistan,Sri Lanka,23 runs,Dubai International Cricket Stadium,2022,male,Pakistan,field,PBB Rajapaksa,Asia Cup,Away
+2022-09-01,T20,Bangladesh,Sri Lanka,2 wickets,Dubai International Cricket Stadium,2022,male,Sri Lanka,field,BKG Mendis,Men's T20 Asia Cup,Away
+2022-09-06,T20,India,Sri Lanka,6 wickets,Dubai International Cricket Stadium,2022,male,Sri Lanka,field,MD Shanaka,Men's T20 Asia Cup,Away
+2022-09-09,T20,Pakistan,Sri Lanka,5 wickets,Dubai International Cricket Stadium,2022,male,Sri Lanka,field,PWH de Silva,Men's T20 Asia Cup,Away
+2022-09-11,T20,Pakistan,Sri Lanka,23 runs,Dubai International Cricket Stadium,2022,male,Pakistan,field,PBB Rajapaksa,Men's T20 Asia Cup,Away
 2022-10-01,T20,India,Opponent,41 runs,"Sylhet International Cricket Stadium, Academy Ground",2022,female,Sri Lanka,field,JI Rodrigues,Women's Asia Cup,Away
 2022-10-02,T20,United Arab Emirates,Sri Lanka,11 runs,"Sylhet International Cricket Stadium, Academy Ground",2022,female,Sri Lanka,bat,H Madavi,Women's Asia Cup,Away
 2022-10-04,T20,Thailand,Sri Lanka,49 runs,"Sylhet International Cricket Stadium, Academy Ground",2022,female,Sri Lanka,bat,H Madavi,Women's Asia Cup,Away
@@ -888,10 +888,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2023-01-10,ODI,India,Opponent,67 runs,"Barsapara Cricket Stadium, Guwahati",2023,male,Sri Lanka,field,V Kohli,Sri Lanka tour of India,Away
 2023-01-12,ODI,India,Opponent,4 wickets,"Eden Gardens, Kolkata",2023,male,Sri Lanka,bat,Kuldeep Yadav,Sri Lanka tour of India,Away
 2023-01-15,ODI,India,Opponent,317 runs,"Greenfield International Stadium, Thiruvananthapuram",2023,male,India,bat,V Kohli,Sri Lanka tour of India,Away
-2023-02-10,T20,South Africa,Sri Lanka,3 runs,"Newlands, Cape Town",2023,female,South Africa,field,AC Jayangani,ICC Women's T20 World Cup,Away
-2023-02-12,T20,Bangladesh,Sri Lanka,7 wickets,"Newlands, Cape Town",2023,female,Bangladesh,bat,H Madavi,ICC Women's T20 World Cup,Away
-2023-02-16,T20,Australia,Opponent,10 wickets,"St George's Park, Gqeberha",2023,female,Australia,field,AJ Healy,ICC Women's T20 World Cup,Away
-2023-02-19,T20,New Zealand,Opponent,102 runs,"Boland Park, Paarl",2023,female,New Zealand,bat,AC Kerr,ICC Women's T20 World Cup,Away
+2023-02-10,T20,South Africa,Sri Lanka,3 runs,"Newlands, Cape Town",2023,female,South Africa,field,AC Jayangani,ICC Women's World Twenty20,Away
+2023-02-12,T20,Bangladesh,Sri Lanka,7 wickets,"Newlands, Cape Town",2023,female,Bangladesh,bat,H Madavi,ICC Women's World Twenty20,Away
+2023-02-16,T20,Australia,Opponent,10 wickets,"St George's Park, Gqeberha",2023,female,Australia,field,AJ Healy,ICC Women's World Twenty20,Away
+2023-02-19,T20,New Zealand,Opponent,102 runs,"Boland Park, Paarl",2023,female,New Zealand,bat,AC Kerr,ICC Women's World Twenty20,Away
 2023-03-09,Test,New Zealand,Opponent,2 wickets,"Hagley Oval, Christchurch",2023,male,New Zealand,field,DJ Mitchell,Sri Lanka tour of New Zealand,Away
 2023-03-17,Test,New Zealand,Opponent,58 runs,"Basin Reserve, Wellington",2023,male,Sri Lanka,field,HM Nicholls,Sri Lanka tour of New Zealand,Away
 2023-03-25,ODI,New Zealand,Opponent,198 runs,"Eden Park, Auckland",2023,male,Sri Lanka,field,HB Shipley,Sri Lanka tour of New Zealand,Away
@@ -922,17 +922,17 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2023-07-12,T20,New Zealand,Sri Lanka,10 wickets,"P Sara Oval, Colombo",2023,female,Sri Lanka,field,AC Jayangani,New Zealand Women tour of Sri Lanka,Home
 2023-07-16,Test,Pakistan,Opponent,4 wickets,Galle International Stadium,2023,male,Sri Lanka,bat,Saud Shakeel,Pakistan tour of Sri Lanka,Home
 2023-07-24,Test,Pakistan,Opponent,222 runs,"Sinhalese Sports Club Ground, Colombo",2023,male,Sri Lanka,bat,Abdullah Shafique,Pakistan tour of Sri Lanka,Home
+2023-08-31,ODI,Bangladesh,Sri Lanka,5 wickets,Pallekele International Cricket Stadium,2023,male,Bangladesh,bat,M Pathirana,Mens ODI Asia Cup,Home
 2023-08-31,T20,England,Opponent,12 runs,"County Ground, Hove",2023,female,Sri Lanka,field,A Capsey,Sri Lanka Women tour of England,Away
-2023-08-31,ODI,Bangladesh,Sri Lanka,5 wickets,Pallekele International Cricket Stadium,2023,male,Bangladesh,bat,M Pathirana,Asia Cup,Home
 2023-09-02,T20,England,Sri Lanka,8 wickets,"County Ground, Chelmsford",2023,female,Sri Lanka,field,AC Jayangani,Sri Lanka Women tour of England,Away
 2023-09-06,T20,England,Sri Lanka,7 wickets,"County Ground, Derby",2023,female,Sri Lanka,field,AC Jayangani,Sri Lanka Women tour of England,Away
 2023-09-09,ODI,England,Opponent,7 wickets,"Riverside Ground, Chester-le-Street",2023,female,England,field,M Gaur,Sri Lanka Women tour of England,Away
-2023-09-09,ODI,Bangladesh,Sri Lanka,21 runs,"R Premadasa Stadium, Colombo",2023,male,Bangladesh,field,S Samarawickrama,Asia Cup,Home
+2023-09-09,ODI,Bangladesh,Sri Lanka,21 runs,"R Premadasa Stadium, Colombo",2023,male,Bangladesh,field,S Samarawickrama,Mens ODI Asia Cup,Home
 2023-09-12,ODI,England,No Result,,"County Ground, Northampton",2023,female,England,field,nan,Sri Lanka Women tour of England,Away
-2023-09-12,ODI,India,Opponent,41 runs,"R Premadasa Stadium, Colombo",2023,male,India,bat,DN Wellalage,Asia Cup,Home
-2023-09-14,ODI,Pakistan,Sri Lanka,2 wickets,"R Premadasa Stadium, Colombo",2023,male,Pakistan,bat,BKG Mendis,Asia Cup,Home
+2023-09-12,ODI,India,Opponent,41 runs,"R Premadasa Stadium, Colombo",2023,male,India,bat,DN Wellalage,Mens ODI Asia Cup,Home
+2023-09-14,ODI,Pakistan,Sri Lanka,2 wickets,"R Premadasa Stadium, Colombo",2023,male,Pakistan,bat,BKG Mendis,Mens ODI Asia Cup,Home
 2023-09-14,ODI,England,Opponent,161 runs,"Grace Road, Leicester",2023,female,Sri Lanka,field,NR Sciver-Brunt,Sri Lanka Women tour of England,Away
-2023-09-17,ODI,India,Opponent,10 wickets,"R Premadasa Stadium, Colombo",2023,male,Sri Lanka,bat,Mohammed Siraj,Asia Cup,Home
+2023-09-17,ODI,India,Opponent,10 wickets,"R Premadasa Stadium, Colombo",2023,male,Sri Lanka,bat,Mohammed Siraj,Mens ODI Asia Cup,Home
 2023-09-22,T20,Thailand,Sri Lanka,8 wickets,Zhejiang University of Technology Cricket Field,2023,female,Sri Lanka,field,nan,Asian Games Women's Cricket Competition,Away
 2023-09-24,T20,Pakistan,Sri Lanka,6 wickets,Zhejiang University of Technology Cricket Field,2023,female,Sri Lanka,field,nan,Asian Games Women's Cricket Competition,Away
 2023-09-25,T20,India,Opponent,19 runs,Zhejiang University of Technology Cricket Field,2023,female,India,bat,nan,Asian Games Women's Cricket Competition,Away
@@ -1000,10 +1000,10 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2024-09-06,Test,England,Sri Lanka,8 wickets,"Kennington Oval, London",2024,male,Sri Lanka,field,P Nissanka,Sri Lanka tour of England,Away
 2024-09-18,Test,New Zealand,Sri Lanka,63 runs,Galle International Stadium,2024,male,Sri Lanka,bat,NGRP Jayasuriya,New Zealand tour of Sri Lanka,Home
 2024-09-26,Test,New Zealand,Sri Lanka,154 runs,Galle International Stadium,2024,male,Sri Lanka,bat,PHKD Mendis,New Zealand tour of Sri Lanka,Home
-2024-10-03,T20,Pakistan,Opponent,31 runs,Sharjah Cricket Stadium,2024,female,Pakistan,bat,Fatima Sana,ICC Women's T20 World Cup,Away
-2024-10-05,T20,Australia,Opponent,6 wickets,Sharjah Cricket Stadium,2024,female,Sri Lanka,bat,ML Schutt,ICC Women's T20 World Cup,Away
-2024-10-09,T20,India,Opponent,82 runs,Dubai International Cricket Stadium,2024,female,India,bat,H Kaur,ICC Women's T20 World Cup,Away
-2024-10-12,T20,New Zealand,Opponent,8 wickets,Sharjah Cricket Stadium,2024,female,Sri Lanka,bat,GE Plimmer,ICC Women's T20 World Cup,Away
+2024-10-03,T20,Pakistan,Opponent,31 runs,Sharjah Cricket Stadium,2024,female,Pakistan,bat,Fatima Sana,ICC Women's World Twenty20,Away
+2024-10-05,T20,Australia,Opponent,6 wickets,Sharjah Cricket Stadium,2024,female,Sri Lanka,bat,ML Schutt,ICC Women's World Twenty20,Away
+2024-10-09,T20,India,Opponent,82 runs,Dubai International Cricket Stadium,2024,female,India,bat,H Kaur,ICC Women's World Twenty20,Away
+2024-10-12,T20,New Zealand,Opponent,8 wickets,Sharjah Cricket Stadium,2024,female,Sri Lanka,bat,GE Plimmer,ICC Women's World Twenty20,Away
 2024-10-13,T20,West Indies,Opponent,5 wickets,Rangiri Dambulla International Stadium,2024,male,West Indies,field,BA King,West Indies tour of Sri Lanka,Home
 2024-10-15,T20,West Indies,Sri Lanka,73 runs,Rangiri Dambulla International Stadium,2024,male,Sri Lanka,bat,P Nissanka,West Indies tour of Sri Lanka,Home
 2024-10-17,T20,West Indies,Sri Lanka,9 wickets,Rangiri Dambulla International Stadium,2024,male,West Indies,bat,BKG Mendis,West Indies tour of Sri Lanka,Home
@@ -1081,9 +1081,16 @@ Match_Date,Match_Format,Opponent,Winner,Margin,Ground,Year,Gender,Toss_Winner,To
 2026-01-24,ODI,England,Opponent,5 wickets,"R Premadasa Stadium, Colombo",2026,male,Sri Lanka,bat,JE Root,England tour of Sri Lanka,Home
 2026-01-27,ODI,England,Opponent,53 runs,"R Premadasa Stadium, Colombo",2026,male,England,bat,HC Brook,England tour of Sri Lanka,Home
 2026-01-30,T20,England,Opponent,11 runs,Pallekele International Cricket Stadium,2026,male,England,field,AU Rashid,England tour of Sri Lanka,Home
+2026-02-08,T20,Ireland,Sri Lanka,20 runs,"R Premadasa Stadium, Colombo",2026,male,Ireland,field,PHKD Mendis,ICC Men's T20 World Cup,Home
+2026-02-12,T20,Oman,Sri Lanka,105 runs,Pallekele International Cricket Stadium,2026,male,Oman,field,P Rathnayaka,ICC Men's T20 World Cup,Home
+2026-02-16,T20,Australia,Sri Lanka,8 wickets,Pallekele International Cricket Stadium,2026,male,Sri Lanka,field,P Nissanka,ICC Men's T20 World Cup,Home
+2026-02-19,T20,Zimbabwe,Opponent,6 wickets,"R Premadasa Stadium, Colombo",2026,male,Sri Lanka,bat,Sikandar Raza,ICC Men's T20 World Cup,Home
 2026-02-20,ODI,West Indies,Sri Lanka,10 runs,"National Cricket Stadium, St George's, Grenada",2026,female,West Indies,field,I Ranaweera,Sri Lanka Women tour of West Indies,Away
+2026-02-22,T20,England,Opponent,51 runs,Pallekele International Cricket Stadium,2026,male,Sri Lanka,field,Will Jacks,ICC Men's T20 World Cup,Home
 2026-02-22,ODI,West Indies,Sri Lanka,14 runs,"National Cricket Stadium, St George's, Grenada",2026,female,West Indies,field,RMVD Gunaratne,Sri Lanka Women tour of West Indies,Away
+2026-02-25,T20,New Zealand,Opponent,61 runs,"R Premadasa Stadium, Colombo",2026,male,Sri Lanka,field,Rachin Ravindra,ICC Men's T20 World Cup,Home
 2026-02-25,ODI,West Indies,Opponent,6 wickets,"National Cricket Stadium, St George's, Grenada",2026,female,Sri Lanka,bat,HK Matthews,Sri Lanka Women tour of West Indies,Away
+2026-02-28,T20,Pakistan,Opponent,5 runs,Pallekele International Cricket Stadium,2026,male,Sri Lanka,field,Sahibzada Farhan,ICC Men's T20 World Cup,Home
 2026-04-20,ODI,Bangladesh,Opponent,3 wickets,"Shahid Kamruzzaman Stadium, Rajshahi",2026,female,Sri Lanka,bat,Sharmin Akhter,Sri Lanka Women tour of Bangladesh,Away
 2026-04-22,ODI,Bangladesh,Sri Lanka,4 wickets,"Shahid Kamruzzaman Stadium, Rajshahi",2026,female,Bangladesh,bat,AC Jayangani,Sri Lanka Women tour of Bangladesh,Away
 2026-04-25,ODI,Bangladesh,Sri Lanka,7 wickets,"Shahid Kamruzzaman Stadium, Rajshahi",2026,female,Bangladesh,bat,GWHM Perera,Sri Lanka Women tour of Bangladesh,Away
